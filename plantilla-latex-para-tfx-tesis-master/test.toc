@@ -35,3 +35,4 @@
 \contentsline {chapter}{\numberline {5}Conclusions and Future Work}{9}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Conclusions}{9}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Future Work}{9}{section.5.2}%
+\contentsline {chapter}{Bibliography}{11}{chapter*.10}%
