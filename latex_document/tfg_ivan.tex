@@ -7,7 +7,7 @@
 % arara: pdflatex: {shell: yes}
 % arara: clean: {files: [test.aux, test.idx, test.ilg, test.ind, test.bbl, test.bcf, test.blg, test.run.xml, test.fdb_latexmk, test.fls, test.loe, test.lof, test.lol, test.lot, test.ltb, test.out, test.toc, test.upa, test.upb, test.acn, test.acr, test.alg, test.glg, test.glo, test.gls, test.glsdefs, test.idx,  test.ilg, test.xdy, test.loa, test.gnuploterrors , test.mw, test.fdb_latexmk ]}
 
-\documentclass[covers, firstnumbered, tfg, extendedindex, epsbased, english]{tfgtfmthesisuam}
+\documentclass[covers, firstnumbered, tfg, extendedindex, epsbased, english, final]{tfgtfmthesisuam}
 
 
 \title{Comparative Analysis of Classifiers for Breast Cancer Detection with Visualizations}
@@ -21,6 +21,7 @@
 \resumenfile{inicio/resumen}
 
 \logosdir{logos}
+\graphicsdir{imgs}
 
 \begin{document}
 
@@ -45,6 +46,9 @@
 \chapter{Design and Implementation}{designimplementation/designimplementation}
 
 \section{Project Structure}{designimplementation/structure}
+\section{Requirements}{designimplementation/requirements}
+\subsection{Functional Requirements}{designimplementation/functional}
+\subsection{Non-Functional Requirements}{designimplementation/nonfunctional}
 \section{Exploratory Data Analysis}{designimplementation/eda}
 \subsection{Descriptive Statistics}{designimplementation/descriptive}
 \subsection{Data Visualization}{designimplementation/visualization}
@@ -56,6 +60,7 @@
 \section{Web Application Development}{designimplementation/webapp}
 
 \chapter{Experiments and Results}{experimentsresults/experimentsresults}
+\section{Exploratory Data Analysis}{experimentsresults/eda}
 \section{Classifier Comparison}{experimentsresults/comparison}
 \subsection{Base Classifiers Comparison}{experimentsresults/basecomparison}
 \subsection{Ensemble Classifiers Comparison}{experimentsresults/ensemblecomparison}

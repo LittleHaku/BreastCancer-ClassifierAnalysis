@@ -1,0 +1,196 @@
+\glsdefs@newdocentry{xai}%
+{%
+name={XAI},%
+sort={XAI},%
+type={acronym},%
+first={Explainable Artificial Intelligence\glsspace (XAI)},%
+firstplural={Explainable Artificial Intelligence\acrpluralsuffix \glsspace (XAI\acrpluralsuffix )},%
+text={XAI},%
+plural={XAI\acrpluralsuffix },%
+description={Explainable Artificial Intelligence},%
+descriptionplural={Explainable Artificial Intelligence\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Explainable Artificial Intelligence},%
+longplural={Explainable Artificial Intelligences},%
+short={XAI},%
+shortplural={XAIs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{shap}%
+{%
+name={SHAP},%
+sort={SHAP},%
+type={acronym},%
+first={SHapley Additive exPlanations\glsspace (SHAP)},%
+firstplural={SHapley Additive exPlanations\acrpluralsuffix \glsspace (SHAP\acrpluralsuffix )},%
+text={SHAP},%
+plural={SHAP\acrpluralsuffix },%
+description={SHapley Additive exPlanations},%
+descriptionplural={SHapley Additive exPlanations\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={SHapley Additive exPlanations},%
+longplural={SHapley Additive exPlanationss},%
+short={SHAP},%
+shortplural={SHAPs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{pca}%
+{%
+name={PCA},%
+sort={PCA},%
+type={acronym},%
+first={Principal Component Analysis\glsspace (PCA)},%
+firstplural={Principal Component Analysis\acrpluralsuffix \glsspace (PCA\acrpluralsuffix )},%
+text={PCA},%
+plural={PCA\acrpluralsuffix },%
+description={Principal Component Analysis},%
+descriptionplural={Principal Component Analysis\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Principal Component Analysis},%
+longplural={Principal Component Analysiss},%
+short={PCA},%
+shortplural={PCAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ml}%
+{%
+name={ML},%
+sort={ML},%
+type={acronym},%
+first={Machine Learning\glsspace (ML)},%
+firstplural={Machine Learning\acrpluralsuffix \glsspace (ML\acrpluralsuffix )},%
+text={ML},%
+plural={ML\acrpluralsuffix },%
+description={Machine Learning},%
+descriptionplural={Machine Learning\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Machine Learning},%
+longplural={Machine Learnings},%
+short={ML},%
+shortplural={MLs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ai}%
+{%
+name={AI},%
+sort={AI},%
+type={acronym},%
+first={Artificial Intelligence\glsspace (AI)},%
+firstplural={Artificial Intelligence\acrpluralsuffix \glsspace (AI\acrpluralsuffix )},%
+text={AI},%
+plural={AI\acrpluralsuffix },%
+description={Artificial Intelligence},%
+descriptionplural={Artificial Intelligence\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Artificial Intelligence},%
+longplural={Artificial Intelligences},%
+short={AI},%
+shortplural={AIs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{fnab}%
+{%
+name={FNAB},%
+sort={FNAB},%
+type={acronym},%
+first={Fine Needle Aspiration Biopsy\glsspace (FNAB)},%
+firstplural={Fine Needle Aspiration Biopsy\acrpluralsuffix \glsspace (FNAB\acrpluralsuffix )},%
+text={FNAB},%
+plural={FNAB\acrpluralsuffix },%
+description={Fine Needle Aspiration Biopsy},%
+descriptionplural={Fine Needle Aspiration Biopsy\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Fine Needle Aspiration Biopsy},%
+longplural={Fine Needle Aspiration Biopsys},%
+short={FNAB},%
+shortplural={FNABs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{eda}%
+{%
+name={EDA},%
+sort={EDA},%
+type={acronym},%
+first={Exploratory Data Analysis\glsspace (EDA)},%
+firstplural={Exploratory Data Analysis\acrpluralsuffix \glsspace (EDA\acrpluralsuffix )},%
+text={EDA},%
+plural={EDA\acrpluralsuffix },%
+description={Exploratory Data Analysis},%
+descriptionplural={Exploratory Data Analysis\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Exploratory Data Analysis},%
+longplural={Exploratory Data Analysiss},%
+short={EDA},%
+shortplural={EDAs},%
+counter={page},%
+parent={},%
+%
+}%
+
