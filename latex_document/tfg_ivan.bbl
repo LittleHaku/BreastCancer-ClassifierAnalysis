@@ -22,4 +22,20 @@ J.~A.~M. Sidey-Gibbons and C.~J. Sidey-Gibbons, ``Machine learning in medicine:
   pp.~1--18, Dec. 2019.
 \newblock Number: 1 Publisher: BioMed Central.
 
+\bibitem{dinc_evaluation_2014}
+I.~Dinç, M.~Sigdel, S.~Dinç, M.~S. Sigdel, M.~L. Pusey, and R.~S. Aygün,
+  ``Evaluation of {Normalization} and {PCA} on the {Performance} of
+  {Classifiers} for {Protein} {Crystallization} {Images},'' {\em Proceedings of
+  IEEE Southeastcon / IEEE Southeastcon. IEEE Southeastcon}, vol.~2014,
+  p.~10.1109/SECON.2014.6950744, Mar. 2014.
+
+\bibitem{zhao_pre-process_2019}
+K.~Zhao, ``Pre-{Process} {Data} with {Pipeline} to {Prevent} {Data} {Leakage}
+  during {Cross}-{Validation}.,'' Sept. 2019.
+
+\bibitem{daffertshofer_pca_2004}
+A.~Daffertshofer, C.~J. Lamoth, O.~G. Meijer, and P.~J. Beek, ``{PCA} in
+  studying coordination and variability: a tutorial,'' {\em Clinical
+  Biomechanics}, vol.~19, pp.~415--428, May 2004.
+
 \end{thebibliography}

@@ -194,3 +194,87 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{html}%
+{%
+name={HTML},%
+sort={HTML},%
+type={acronym},%
+first={HyperText Markup Language\glsspace (HTML)},%
+firstplural={HyperText Markup Language\acrpluralsuffix \glsspace (HTML\acrpluralsuffix )},%
+text={HTML},%
+plural={HTML\acrpluralsuffix },%
+description={HyperText Markup Language},%
+descriptionplural={HyperText Markup Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={HyperText Markup Language},%
+longplural={HyperText Markup Languages},%
+short={HTML},%
+shortplural={HTMLs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{css}%
+{%
+name={CSS},%
+sort={CSS},%
+type={acronym},%
+first={Cascading Style Sheets\glsspace (CSS)},%
+firstplural={Cascading Style Sheets\acrpluralsuffix \glsspace (CSS\acrpluralsuffix )},%
+text={CSS},%
+plural={CSS\acrpluralsuffix },%
+description={Cascading Style Sheets},%
+descriptionplural={Cascading Style Sheets\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cascading Style Sheets},%
+longplural={Cascading Style Sheetss},%
+short={CSS},%
+shortplural={CSSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{js}%
+{%
+name={JS},%
+sort={JS},%
+type={acronym},%
+first={JavaScript\glsspace (JS)},%
+firstplural={JavaScript\acrpluralsuffix \glsspace (JS\acrpluralsuffix )},%
+text={JS},%
+plural={JS\acrpluralsuffix },%
+description={JavaScript},%
+descriptionplural={JavaScript\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={JavaScript},%
+longplural={JavaScripts},%
+short={JS},%
+shortplural={JSs},%
+counter={page},%
+parent={},%
+%
+}%
+
