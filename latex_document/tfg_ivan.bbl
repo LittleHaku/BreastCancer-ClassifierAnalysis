@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{wcrf_international_breast_nodate}
 {WCRF International}, ``Breast cancer statistics {\textbar} {World} {Cancer}
@@ -37,5 +37,17 @@ K.~Zhao, ``Pre-{Process} {Data} with {Pipeline} to {Prevent} {Data} {Leakage}
 A.~Daffertshofer, C.~J. Lamoth, O.~G. Meijer, and P.~J. Beek, ``{PCA} in
   studying coordination and variability: a tutorial,'' {\em Clinical
   Biomechanics}, vol.~19, pp.~415--428, May 2004.
+
+\bibitem{m_review_2015}
+H.~M and S.~M.N, ``A {Review} on {Evaluation} {Metrics} for {Data}
+  {Classification} {Evaluations},'' {\em International Journal of Data Mining
+  \& Knowledge Management Process}, vol.~5, pp.~01--11, Mar. 2015.
+
+\bibitem{rutecki_best_nodate}
+M.~Rutecki, ``Best techniques and metrics for {Imbalanced} {Dataset}.''
+
+\bibitem{bergstra_random_nodate}
+J.~Bergstra and Y.~Bengio, ``Random {Search} for {Hyper}-{Parameter}
+  {Optimization},''
 
 \end{thebibliography}

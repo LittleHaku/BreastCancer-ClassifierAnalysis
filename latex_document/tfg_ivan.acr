@@ -25,7 +25,9 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{C}\relax\glsresetentrylist
 \glossentry{css}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{11}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{12}}}\relax\glsresetentrylist
+\glossentry{cv}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{12}}}\glsgroupskip
 \glsgroupheading{E}\relax\glsresetentrylist
 \glossentry{eda}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{5}\delimN 
@@ -38,10 +40,10 @@
 \glsXpageXglsnumberformat{}{8}}}\glsgroupskip
 \glsgroupheading{H}\relax\glsresetentrylist
 \glossentry{html}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{11}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{12}}}\glsgroupskip
 \glsgroupheading{J}\relax\glsresetentrylist
 \glossentry{js}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{11}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{12}}}\glsgroupskip
 \glsgroupheading{P}\relax\glsresetentrylist
 \glossentry{pca}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{6}\delimN 
