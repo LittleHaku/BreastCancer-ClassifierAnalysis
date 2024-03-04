@@ -24,20 +24,22 @@
 \BOOKMARK [2][-]{subsection.3.4.1}{Scaling and Normalization}{section.3.4}% 24
 \BOOKMARK [2][-]{subsection.3.4.2}{Principal Component Analysis}{section.3.4}% 25
 \BOOKMARK [1][-]{section.3.5}{Building and Optimizing Classifiers}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.6}{SHAP Implementation}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.7}{Web Application Development}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{Experiments and Results}{}% 29
-\BOOKMARK [1][-]{section.4.1}{Exploratory Data Analysis}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.2}{Classifier Comparison}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.2.1}{Base Classifiers Comparison}{section.4.2}% 32
-\BOOKMARK [2][-]{subsection.4.2.2}{Ensemble Classifiers Comparison}{section.4.2}% 33
-\BOOKMARK [2][-]{subsection.4.2.3}{Choosing the Best Classifier}{section.4.2}% 34
-\BOOKMARK [1][-]{section.4.3}{SHAP Analysis}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.3.1}{Global Interpretability}{section.4.3}% 36
-\BOOKMARK [2][-]{subsection.4.3.2}{Local Interpretability}{section.4.3}% 37
-\BOOKMARK [0][-]{chapter.5}{Conclusions and Future Work}{}% 38
-\BOOKMARK [1][-]{section.5.1}{Conclusions}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.2}{Future Work}{chapter.5}% 40
-\BOOKMARK [0][-]{chapter*.22}{Bibliography}{}% 41
-\BOOKMARK [0][-]{section*.23}{Acronyms}{}% 42
-\BOOKMARK [-1][-]{part.1}{Appendices}{}% 43
+\BOOKMARK [2][-]{subsection.3.5.1}{Comparison of Classifiers}{section.3.5}% 27
+\BOOKMARK [2][-]{subsection.3.5.2}{Optimization of Classifiers}{section.3.5}% 28
+\BOOKMARK [1][-]{section.3.6}{SHAP Implementation}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.7}{Web Application Development}{chapter.3}% 30
+\BOOKMARK [0][-]{chapter.4}{Experiments and Results}{}% 31
+\BOOKMARK [1][-]{section.4.1}{Exploratory Data Analysis}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.2}{Classifier Comparison}{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.2.1}{Base Classifiers Comparison}{section.4.2}% 34
+\BOOKMARK [2][-]{subsection.4.2.2}{Ensemble Classifiers Comparison}{section.4.2}% 35
+\BOOKMARK [2][-]{subsection.4.2.3}{Choosing the Best Classifier}{section.4.2}% 36
+\BOOKMARK [1][-]{section.4.3}{SHAP Analysis}{chapter.4}% 37
+\BOOKMARK [2][-]{subsection.4.3.1}{Global Interpretability}{section.4.3}% 38
+\BOOKMARK [2][-]{subsection.4.3.2}{Local Interpretability}{section.4.3}% 39
+\BOOKMARK [0][-]{chapter.5}{Conclusions and Future Work}{}% 40
+\BOOKMARK [1][-]{section.5.1}{Conclusions}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.2}{Future Work}{chapter.5}% 42
+\BOOKMARK [0][-]{chapter*.22}{Bibliography}{}% 43
+\BOOKMARK [0][-]{section*.23}{Acronyms}{}% 44
+\BOOKMARK [-1][-]{part.1}{Appendices}{}% 45

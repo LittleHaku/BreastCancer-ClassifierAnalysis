@@ -50,4 +50,25 @@ M.~Rutecki, ``Best techniques and metrics for {Imbalanced} {Dataset}.''
 J.~Bergstra and Y.~Bengio, ``Random {Search} for {Hyper}-{Parameter}
   {Optimization},''
 
+\bibitem{borys_explainable_2023}
+K.~Borys, Y.~A. Schmitt, M.~Nauta, C.~Seifert, N.~Krämer, C.~M. Friedrich, and
+  F.~Nensa, ``Explainable {AI} in medical imaging: {An} overview for clinical
+  practitioners – {Beyond} saliency-based {XAI} approaches,'' {\em European
+  Journal of Radiology}, vol.~162, p.~110786, May 2023.
+
+\bibitem{massafra_analyzing_2023}
+R.~Massafra, A.~Fanizzi, N.~Amoroso, S.~Bove, M.~C. Comes, D.~Pomarico,
+  V.~Didonna, S.~Diotaiuti, L.~Galati, F.~Giotta, D.~La~Forgia, A.~Latorre,
+  A.~Lombardi, A.~Nardone, M.~I. Pastena, C.~M. Ressa, L.~Rinaldi, P.~Tamborra,
+  A.~Zito, A.~V. Paradiso, R.~Bellotti, and V.~Lorusso, ``Analyzing breast
+  cancer invasive disease event classification through explainable artificial
+  intelligence,'' {\em Frontiers in Medicine}, vol.~10, 2023.
+
+\bibitem{lundberg_unified_2017}
+S.~M. Lundberg and S.-I. Lee, ``A {Unified} {Approach} to {Interpreting}
+  {Model} {Predictions},'' in {\em Advances in {Neural} {Information}
+  {Processing} {Systems}} (I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach,
+  R.~Fergus, S.~Vishwanathan, and R.~Garnett, eds.), vol.~30, Curran
+  Associates, Inc., 2017.
+
 \end{thebibliography}

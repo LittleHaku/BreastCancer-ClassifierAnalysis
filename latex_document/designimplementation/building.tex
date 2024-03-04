@@ -23,6 +23,8 @@ Based on the best results of the base classifiers, the ensemble classifiers were
     \item \textbf{Stacking}
 \end{itemize}
 
+\subsection{Comparison of Classifiers}
+
 To decide if a classifier is better than another, evaluation metrics were used, and to choose the appropriate metrics for this problem, we first need to understand the basic metrics used in classification problems \cite{m_review_2015}:
 
 \begin{itemize}
@@ -41,8 +43,10 @@ Now we have to choose the appropriate metrics for this problem, the most importa
     \item \textbf{Precision}: $$Precision = \frac{TP}{TP + FP}$$
 \end{itemize}
 
+\subsection{Optimization of Classifiers}
+
 To maximize these metrics in the classifiers, we have to optimize the hyperparameters of the classifiers. The hyperparameters are the parameters that are not learned by the model, and they are set before the training process, these can, for example, be the number of neighbors in the K-Nearest Neighbors classifier, the number of neurons in the Multilayer Perceptron classifier, or the maximum depth of the Decision Tree classifier. To optimize these hyperparameters, we used the \textit{RandomizedSearchCV} followed by the \textit{GridSearchCV}. The reason for using the \textit{RandomizedSearchCV} first is that can achieve similar results to the \textit{GridSearchCV} but with a lower computational cost \cite{bergstra_random_nodate}, this will allow us to explore a wider range of hyperparameters and have a range of values to use in the \textit{GridSearchCV}. Then we used the \textit{GridSearchCV} to find the best hyperparameters in the range of values found by the \textit{RandomizedSearchCV}.
 
 \newacronym{cv}{CV}{Cross-Validation}
 
-These searches had a 5-fold \ac{cv}, which means that the dataset was split into 5 parts, 4 parts were used for training and 1 part was used for testing, this process was repeated 5 times, each time with a different part for testing, and the results were averaged, using the \textit{F1 Score} as the metric to optimize. This process was done to avoid overfitting and to have a more reliable result, of course, this process was only done in the training set, to avoid data leakage.
+These searches had a 5-fold \ac{cv}, which means that the dataset was split into 5 parts, 4 parts were used for training and 1 part was used for testing, this process was repeated 5 times, each time with a different part for testing, and the results were averaged, using the \textit{F1 Score} as the metric to optimize. All the \textit{RandomizedSearchCV} and \textit{GridSearchCV} were done using the same seed, this means that the split of the dataset was the same for all the classifiers, this ends up in a more reliable result and also allows the reproducibility of the results. This process was done to avoid overfitting and to have a more reliable result, of course, this process was only done in the training set, to avoid data leakage.
