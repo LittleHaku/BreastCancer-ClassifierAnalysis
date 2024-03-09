@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {2.4}Explainable AI}{3}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Explainable AI}{3}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}SHAP}{3}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Web Application Development}{3}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Web Application Development}{4}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Design and Implementation}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Project Structure}{5}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Requirements}{7}{section.3.2}%

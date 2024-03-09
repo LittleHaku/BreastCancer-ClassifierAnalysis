@@ -13,6 +13,13 @@ Y.-H. Yu, W.~Wei, and J.-L. Liu, ``Diagnostic value of fine-needle aspiration
   biopsy for breast mass: a systematic review and meta-analysis,'' {\em BMC
   Cancer}, vol.~12, p.~41, Jan. 2012.
 
+\bibitem{lundberg_unified_2017}
+S.~M. Lundberg and S.-I. Lee, ``A {Unified} {Approach} to {Interpreting}
+  {Model} {Predictions},'' in {\em Advances in {Neural} {Information}
+  {Processing} {Systems}} (I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach,
+  R.~Fergus, S.~Vishwanathan, and R.~Garnett, eds.), vol.~30, Curran
+  Associates, Inc., 2017.
+
 \bibitem{william_wolberg_breast_1993}
 O.~M. William~Wolberg, ``Breast {Cancer} {Wisconsin} ({Diagnostic}),'' 1993.
 
@@ -63,12 +70,5 @@ R.~Massafra, A.~Fanizzi, N.~Amoroso, S.~Bove, M.~C. Comes, D.~Pomarico,
   A.~Zito, A.~V. Paradiso, R.~Bellotti, and V.~Lorusso, ``Analyzing breast
   cancer invasive disease event classification through explainable artificial
   intelligence,'' {\em Frontiers in Medicine}, vol.~10, 2023.
-
-\bibitem{lundberg_unified_2017}
-S.~M. Lundberg and S.-I. Lee, ``A {Unified} {Approach} to {Interpreting}
-  {Model} {Predictions},'' in {\em Advances in {Neural} {Information}
-  {Processing} {Systems}} (I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach,
-  R.~Fergus, S.~Vishwanathan, and R.~Garnett, eds.), vol.~30, Curran
-  Associates, Inc., 2017.
 
 \end{thebibliography}
