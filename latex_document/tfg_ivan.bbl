@@ -13,6 +13,24 @@ Y.-H. Yu, W.~Wei, and J.-L. Liu, ``Diagnostic value of fine-needle aspiration
   biopsy for breast mass: a systematic review and meta-analysis,'' {\em BMC
   Cancer}, vol.~12, p.~41, Jan. 2012.
 
+\bibitem{noauthor_sklearnlinear_modelsgdclassifier_nodate}
+``sklearn.linear\_model.{SGDClassifier}.''
+
+\bibitem{natekin_gradient_2013}
+A.~Natekin and A.~Knoll, ``Gradient boosting machines, a tutorial,'' {\em
+  Frontiers in Neurorobotics}, vol.~7, Dec. 2013.
+\newblock Publisher: Frontiers.
+
+\bibitem{breiman_random_2001}
+L.~Breiman, ``Random {Forests},'' {\em Machine Learning}, vol.~45, pp.~5--32,
+  Oct. 2001.
+
+\bibitem{scikit_learn_bagging_nodate}
+{Scikit Learn}, ``Bagging {Classifier}.''
+
+\bibitem{wolpert_stacked_nodate}
+D.~H. Wolpert, ``{STACKED} {GENERALIZATION},''
+
 \bibitem{lundberg_unified_2017}
 S.~M. Lundberg and S.-I. Lee, ``A {Unified} {Approach} to {Interpreting}
   {Model} {Predictions},'' in {\em Advances in {Neural} {Information}

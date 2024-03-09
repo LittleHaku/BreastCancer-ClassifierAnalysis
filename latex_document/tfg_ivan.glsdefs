@@ -1,3 +1,451 @@
+\glsdefs@newdocentry{fnab}%
+{%
+name={FNAB},%
+sort={FNAB},%
+type={acronym},%
+first={Fine Needle Aspiration Biopsy\glsspace (FNAB)},%
+firstplural={Fine Needle Aspiration Biopsy\acrpluralsuffix \glsspace (FNAB\acrpluralsuffix )},%
+text={FNAB},%
+plural={FNAB\acrpluralsuffix },%
+description={Fine Needle Aspiration Biopsy},%
+descriptionplural={Fine Needle Aspiration Biopsy\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Fine Needle Aspiration Biopsy},%
+longplural={Fine Needle Aspiration Biopsys},%
+short={FNAB},%
+shortplural={FNABs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{lr}%
+{%
+name={LR},%
+sort={LR},%
+type={acronym},%
+first={Logistic Regression\glsspace (LR)},%
+firstplural={Logistic Regression\acrpluralsuffix \glsspace (LR\acrpluralsuffix )},%
+text={LR},%
+plural={LR\acrpluralsuffix },%
+description={Logistic Regression},%
+descriptionplural={Logistic Regression\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Logistic Regression},%
+longplural={Logistic Regressions},%
+short={LR},%
+shortplural={LRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{mlp}%
+{%
+name={MLP},%
+sort={MLP},%
+type={acronym},%
+first={Multilayer Perceptron\glsspace (MLP)},%
+firstplural={Multilayer Perceptron\acrpluralsuffix \glsspace (MLP\acrpluralsuffix )},%
+text={MLP},%
+plural={MLP\acrpluralsuffix },%
+description={Multilayer Perceptron},%
+descriptionplural={Multilayer Perceptron\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Multilayer Perceptron},%
+longplural={Multilayer Perceptrons},%
+short={MLP},%
+shortplural={MLPs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{sgd}%
+{%
+name={SGD},%
+sort={SGD},%
+type={acronym},%
+first={Stochastic Gradient Descent\glsspace (SGD)},%
+firstplural={Stochastic Gradient Descent\acrpluralsuffix \glsspace (SGD\acrpluralsuffix )},%
+text={SGD},%
+plural={SGD\acrpluralsuffix },%
+description={Stochastic Gradient Descent},%
+descriptionplural={Stochastic Gradient Descent\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Stochastic Gradient Descent},%
+longplural={Stochastic Gradient Descents},%
+short={SGD},%
+shortplural={SGDs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{svm}%
+{%
+name={SVM},%
+sort={SVM},%
+type={acronym},%
+first={Support Vector Machine\glsspace (SVM)},%
+firstplural={Support Vector Machine\acrpluralsuffix \glsspace (SVM\acrpluralsuffix )},%
+text={SVM},%
+plural={SVM\acrpluralsuffix },%
+description={Support Vector Machine},%
+descriptionplural={Support Vector Machine\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Support Vector Machine},%
+longplural={Support Vector Machines},%
+short={SVM},%
+shortplural={SVMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{knn}%
+{%
+name={KNN},%
+sort={KNN},%
+type={acronym},%
+first={K-Nearest Neighbors\glsspace (KNN)},%
+firstplural={K-Nearest Neighbors\acrpluralsuffix \glsspace (KNN\acrpluralsuffix )},%
+text={KNN},%
+plural={KNN\acrpluralsuffix },%
+description={K-Nearest Neighbors},%
+descriptionplural={K-Nearest Neighbors\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={K-Nearest Neighbors},%
+longplural={K-Nearest Neighborss},%
+short={KNN},%
+shortplural={KNNs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{lda}%
+{%
+name={LDA},%
+sort={LDA},%
+type={acronym},%
+first={Linear Discriminant Analysis\glsspace (LDA)},%
+firstplural={Linear Discriminant Analysis\acrpluralsuffix \glsspace (LDA\acrpluralsuffix )},%
+text={LDA},%
+plural={LDA\acrpluralsuffix },%
+description={Linear Discriminant Analysis},%
+descriptionplural={Linear Discriminant Analysis\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Linear Discriminant Analysis},%
+longplural={Linear Discriminant Analysiss},%
+short={LDA},%
+shortplural={LDAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{qda}%
+{%
+name={QDA},%
+sort={QDA},%
+type={acronym},%
+first={Quadratic Discriminant Analysis\glsspace (QDA)},%
+firstplural={Quadratic Discriminant Analysis\acrpluralsuffix \glsspace (QDA\acrpluralsuffix )},%
+text={QDA},%
+plural={QDA\acrpluralsuffix },%
+description={Quadratic Discriminant Analysis},%
+descriptionplural={Quadratic Discriminant Analysis\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Quadratic Discriminant Analysis},%
+longplural={Quadratic Discriminant Analysiss},%
+short={QDA},%
+shortplural={QDAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{dt}%
+{%
+name={DT},%
+sort={DT},%
+type={acronym},%
+first={Decision Tree\glsspace (DT)},%
+firstplural={Decision Tree\acrpluralsuffix \glsspace (DT\acrpluralsuffix )},%
+text={DT},%
+plural={DT\acrpluralsuffix },%
+description={Decision Tree},%
+descriptionplural={Decision Tree\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Decision Tree},%
+longplural={Decision Trees},%
+short={DT},%
+shortplural={DTs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{gnb}%
+{%
+name={GNB},%
+sort={GNB},%
+type={acronym},%
+first={Gaussian Naive Bayes\glsspace (GNB)},%
+firstplural={Gaussian Naive Bayes\acrpluralsuffix \glsspace (GNB\acrpluralsuffix )},%
+text={GNB},%
+plural={GNB\acrpluralsuffix },%
+description={Gaussian Naive Bayes},%
+descriptionplural={Gaussian Naive Bayes\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Gaussian Naive Bayes},%
+longplural={Gaussian Naive Bayess},%
+short={GNB},%
+shortplural={GNBs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{gb}%
+{%
+name={GB},%
+sort={GB},%
+type={acronym},%
+first={Gradient Boosting\glsspace (GB)},%
+firstplural={Gradient Boosting\acrpluralsuffix \glsspace (GB\acrpluralsuffix )},%
+text={GB},%
+plural={GB\acrpluralsuffix },%
+description={Gradient Boosting},%
+descriptionplural={Gradient Boosting\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Gradient Boosting},%
+longplural={Gradient Boostings},%
+short={GB},%
+shortplural={GBs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ab}%
+{%
+name={AB},%
+sort={AB},%
+type={acronym},%
+first={AdaBoost\glsspace (AB)},%
+firstplural={AdaBoost\acrpluralsuffix \glsspace (AB\acrpluralsuffix )},%
+text={AB},%
+plural={AB\acrpluralsuffix },%
+description={AdaBoost},%
+descriptionplural={AdaBoost\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={AdaBoost},%
+longplural={AdaBoosts},%
+short={AB},%
+shortplural={ABs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{rf}%
+{%
+name={RF},%
+sort={RF},%
+type={acronym},%
+first={Random Forest\glsspace (RF)},%
+firstplural={Random Forest\acrpluralsuffix \glsspace (RF\acrpluralsuffix )},%
+text={RF},%
+plural={RF\acrpluralsuffix },%
+description={Random Forest},%
+descriptionplural={Random Forest\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Random Forest},%
+longplural={Random Forests},%
+short={RF},%
+shortplural={RFs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{vc}%
+{%
+name={VC},%
+sort={VC},%
+type={acronym},%
+first={Vote Classifier\glsspace (VC)},%
+firstplural={Vote Classifier\acrpluralsuffix \glsspace (VC\acrpluralsuffix )},%
+text={VC},%
+plural={VC\acrpluralsuffix },%
+description={Vote Classifier},%
+descriptionplural={Vote Classifier\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Vote Classifier},%
+longplural={Vote Classifiers},%
+short={VC},%
+shortplural={VCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{bc}%
+{%
+name={BC},%
+sort={BC},%
+type={acronym},%
+first={Bagging Classifier\glsspace (BC)},%
+firstplural={Bagging Classifier\acrpluralsuffix \glsspace (BC\acrpluralsuffix )},%
+text={BC},%
+plural={BC\acrpluralsuffix },%
+description={Bagging Classifier},%
+descriptionplural={Bagging Classifier\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Bagging Classifier},%
+longplural={Bagging Classifiers},%
+short={BC},%
+shortplural={BCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{sc}%
+{%
+name={SC},%
+sort={SC},%
+type={acronym},%
+first={Stacking Classifier\glsspace (SC)},%
+firstplural={Stacking Classifier\acrpluralsuffix \glsspace (SC\acrpluralsuffix )},%
+text={SC},%
+plural={SC\acrpluralsuffix },%
+description={Stacking Classifier},%
+descriptionplural={Stacking Classifier\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Stacking Classifier},%
+longplural={Stacking Classifiers},%
+short={SC},%
+shortplural={SCs},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{shap}%
 {%
 name={SHAP},%
@@ -133,34 +581,6 @@ long={Artificial Intelligence},%
 longplural={Artificial Intelligences},%
 short={AI},%
 shortplural={AIs},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{fnab}%
-{%
-name={FNAB},%
-sort={FNAB},%
-type={acronym},%
-first={Fine Needle Aspiration Biopsy\glsspace (FNAB)},%
-firstplural={Fine Needle Aspiration Biopsy\acrpluralsuffix \glsspace (FNAB\acrpluralsuffix )},%
-text={FNAB},%
-plural={FNAB\acrpluralsuffix },%
-description={Fine Needle Aspiration Biopsy},%
-descriptionplural={Fine Needle Aspiration Biopsy\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={Fine Needle Aspiration Biopsy},%
-longplural={Fine Needle Aspiration Biopsys},%
-short={FNAB},%
-shortplural={FNABs},%
 counter={page},%
 parent={},%
 %

@@ -1,0 +1,35 @@
+Base classifiers as just mentioned are single classifiers, they are the simplest form of classifiers, and they are the building blocks of ensemble classifiers. There are many base classifiers, but for this work, we are going to focus on the most common ones.
+
+\newacronym{lr}{LR}{Logistic Regression}
+\newacronym{mlp}{MLP}{Multilayer Perceptron}
+\newacronym{sgd}{SGD}{Stochastic Gradient Descent}
+\newacronym{svm}{SVM}{Support Vector Machine}
+\newacronym{knn}{KNN}{K-Nearest Neighbors}
+\newacronym{lda}{LDA}{Linear Discriminant Analysis}
+\newacronym{qda}{QDA}{Quadratic Discriminant Analysis}
+\newacronym{dt}{DT}{Decision Tree}
+\newacronym{gnb}{GNB}{Gaussian Naive Bayes}
+
+\subsubsection{Logistic Regression}
+\ac{lr} is a probabilistic model that uses a logistic function to predict the probability of a binary outcome. The central idea is to find the best-fitting model to describe the relationship between the binary dependent variable and one or more independent variables.
+
+\subsubsection{Multilayer Perceptron}
+A \ac{mlp} is a neural network composed of perceptrons, a perceptron is a simple model of a biological neuron, it takes several binary inputs and produces a single binary output using a weighted sum of the inputs and an activation function.
+
+\subsubsection{Stochastic Gradient Descent}
+\ac{sgd} is not a classifier itself, but an optimization algorithm used instead of the standard gradient descent algorithm, it is used to minimize the loss function of a classifier. It is in this list because in Scikit-learn it can be used as a classifier by indicating the linear model to be used \cite{noauthor_sklearnlinear_modelsgdclassifier_nodate}.
+
+\subsubsection{Support Vector Machine}
+\ac{svm} is a statistical model that separates data into classes by finding a hyperplane that separates the classes, since there can be multiple hyperplanes that do so, the model tries to find the one that maximizes the margin between the classes.
+
+\subsubsection{K-Nearest Neighbors}
+\ac{knn} is a model that classifies the sample based on the majority of its neighbors, the number of neighbors, k, is a parameter that must be set by the user.
+
+\subsubsection{Linear and Quadratic Discriminant Analysis}
+Two different models, \ac{lda} and \ac{qda}. They are used to find a linear or quadratic decision boundary that separates the classes.
+
+\subsubsection{Decision Tree}
+\ac{dt} is a model that separates the data into classes by asking a series of questions, each question is based on the value of a feature, and the answer to the question determines the next question. It is a tree-like model, where the leaves are the classes.
+
+\subsubsection{Gaussian Naive Bayes}
+\ac{gnb} is a probabilistic model that uses Naive Bayes' theorem with the assumption that the features are independent, given the class. It is called Gaussian because it assumes that the features are normally distributed.
