@@ -1,1 +1,16 @@
-Now that we know what a classifier is, how it works and the different types of classifiers, we can start talking about how we are going to optim
+We have understood the metrics that are used to evaluate the performance of a classifier, now we can move to the optimization of the classifier. The optimization of a classifier is the process of finding the best hyperparameters for it, the hyperparameters are the parameters that are not learned by the model, for example, the number of trees in a Random Forest, the number of neighbors in a K-Nearest Neighbors, etc. These parameters can heavily influence the performance of the classifier. The two main methods to optimize a classifier are Grid Search and Random Search.
+
+\begin{itemize}
+    \item \textbf{Grid Search}: This method is a brute force method, it tries all the possible combinations of the hyperparameters, for example, if we have two hyperparameters, one with 3 possible values and the other with 4 possible values, the Grid Search will try 12 different combinations. This method is very useful when we have a small number of hyperparameters, but it is not efficient when we have a large number of hyperparameters since the number of combinations grows exponentially.
+    \item \textbf{Random Search}: This method instead of trying all the possible combinations, tries a random subset of the combinations. The number of combinations to try is a parameter of the method. Since it doesn't try all the combinations, it is faster than the Grid Search, but it is not guaranteed to find the best combination of hyperparameters.
+\end{itemize}
+
+\newacronym{cv}{CV}{Cross Validation}   
+
+Both of these methods use \ac{cv}, a technique that is used to evaluate the performance of the classifier without using the test set. The \ac{cv} technique splits the dataset into $k$ folds, then leaves one fold out and trains the classifier with the remaining $k-1$ folds, then it evaluates the classifier with the left out fold and repeats this process changing the fold that is left out, this process is repeated $k$ times, and the average of the results is the final result. This technique is used to avoid overfitting the classifier to the training set. An example of a \ac{cv} with 5 folds is shown in Figure \ref{FIG:CrossValidation}.
+
+\begin{figure}[Cross Validation]{FIG:CrossValidation}{Graphical representation of a 5 fold \ac{cv} \cite{noauthor_cross_2023}}
+    \image{12cm}{}{cross-validation.png}
+\end{figure}
+
+As we saw, both methods have their advantages and disadvantages, the Grid Search is guaranteed to find the best combination of hyperparameters, but it is not efficient when we have a large number of hyperparameters since it can take hours and even days to finish, the Random Search is faster, but it is not guaranteed to find the best combination of hyperparameters. Researchers have found that Random Search is more efficient than Grid Search, if both methods have the same number of iterations, Random Search will find a better combination of hyperparameters \cite{bergstra_random_nodate}. Knowing this we can first use Random Search to find a boundary of the best hyperparameters and then use Grid Search to find the best combination of hyperparameters.

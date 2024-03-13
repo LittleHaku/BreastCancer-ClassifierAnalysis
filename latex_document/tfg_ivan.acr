@@ -35,6 +35,7 @@
 \glossentry{css}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{22}}}\relax\glsresetentrylist
 \glossentry{cv}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{11}\delimN 
 \glsXpageXglsnumberformat{}{20}}}\glsgroupskip
 \glsgroupheading{D}\relax\glsresetentrylist
 \glossentry{dt}{\glossaryentrynumbers{\relax 
@@ -99,7 +100,7 @@
 \glossentry{sgd}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{4}}}\relax\glsresetentrylist
 \glossentry{shap}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{11}\delimN 
+\glsXpageXglsnumberformat{}{12}\delimN 
 \glsXpageXglsnumberformat{}{14}\delimN 
 \glsXpageXglsnumberformat{}{21}}}\relax\glsresetentrylist
 \glossentry{svm}{\glossaryentrynumbers{\relax 
@@ -116,8 +117,7 @@
 \glsXpageXglsnumberformat{}{6}}}\glsgroupskip
 \glsgroupheading{X}\relax\glsresetentrylist
 \glossentry{xai}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{11}\delimN 
-\glsXpageXglsnumberformat{}{13}\delimN 
+\glsXpageXglsnumberformat{}{12}\delimR 
 \glsXpageXglsnumberformat{}{14}\delimN 
 \glsXpageXglsnumberformat{}{21}}}%
 \end{theglossary}\glossarypostamble

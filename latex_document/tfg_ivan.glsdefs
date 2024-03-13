@@ -558,6 +558,34 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{cv}%
+{%
+name={CV},%
+sort={CV},%
+type={acronym},%
+first={Cross Validation\glsspace (CV)},%
+firstplural={Cross Validation\acrpluralsuffix \glsspace (CV\acrpluralsuffix )},%
+text={CV},%
+plural={CV\acrpluralsuffix },%
+description={Cross Validation},%
+descriptionplural={Cross Validation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cross Validation},%
+longplural={Cross Validations},%
+short={CV},%
+shortplural={CVs},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{shap}%
 {%
 name={SHAP},%
@@ -721,34 +749,6 @@ long={Exploratory Data Analysis},%
 longplural={Exploratory Data Analysiss},%
 short={EDA},%
 shortplural={EDAs},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{cv}%
-{%
-name={CV},%
-sort={CV},%
-type={acronym},%
-first={Cross-Validation\glsspace (CV)},%
-firstplural={Cross-Validation\acrpluralsuffix \glsspace (CV\acrpluralsuffix )},%
-text={CV},%
-plural={CV\acrpluralsuffix },%
-description={Cross-Validation},%
-descriptionplural={Cross-Validation\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={Cross-Validation},%
-longplural={Cross-Validations},%
-short={CV},%
-shortplural={CVs},%
 counter={page},%
 parent={},%
 %

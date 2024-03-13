@@ -23,21 +23,21 @@
 \contentsline {subsubsection}{Stacking Classifier}{7}{section*.26}%
 \contentsline {section}{\numberline {2.2}Evaluation of Classifiers}{7}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Classifier Optimization}{10}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Explainable AI}{11}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Explainable AI}{11}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}SHAP}{11}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Web Application Development}{11}{section.2.5}%
+\contentsline {section}{\numberline {2.4}Explainable AI}{12}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Explainable AI}{12}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}SHAP}{12}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Web Application Development}{12}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Design and Implementation}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Project Structure}{13}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Requirements}{15}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Functional Requirements}{15}{subsection.3.2.1}%
-\contentsline {subsubsection}{Dataset}{15}{section*.33}%
-\contentsline {subsubsection}{Classifiers}{15}{section*.34}%
-\contentsline {subsubsection}{Explainable Artificial Intelligence}{15}{section*.35}%
-\contentsline {subsubsection}{Web Application}{15}{section*.36}%
+\contentsline {subsubsection}{Dataset}{15}{section*.34}%
+\contentsline {subsubsection}{Classifiers}{15}{section*.35}%
+\contentsline {subsubsection}{Explainable Artificial Intelligence}{15}{section*.36}%
+\contentsline {subsubsection}{Web Application}{15}{section*.37}%
 \contentsline {subsection}{\numberline {3.2.2}Non-Functional Requirements}{15}{subsection.3.2.2}%
-\contentsline {subsubsection}{Classifiers}{16}{section*.37}%
-\contentsline {subsubsection}{Web Application}{16}{section*.38}%
+\contentsline {subsubsection}{Classifiers}{16}{section*.38}%
+\contentsline {subsubsection}{Web Application}{16}{section*.39}%
 \contentsline {section}{\numberline {3.3}Exploratory Data Analysis}{16}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Descriptive Statistics}{16}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Data Visualization}{17}{subsection.3.3.2}%
@@ -61,6 +61,6 @@
 \contentsline {chapter}{\numberline {5}Conclusions and Future Work}{27}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Conclusions}{27}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Future Work}{27}{section.5.2}%
-\contentsline {chapter}{Bibliography}{30}{chapter*.43}%
-\contentsline {chapter}{Acronyms}{31}{section*.44}%
+\contentsline {chapter}{Bibliography}{30}{chapter*.44}%
+\contentsline {chapter}{Acronyms}{31}{section*.45}%
 \contentsline {part}{Appendices}{33}{part.1}%

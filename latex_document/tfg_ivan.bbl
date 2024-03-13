@@ -52,6 +52,14 @@ L.~Sisters, ``Matthews {Correlation} {Coefficient}: when to use it and when to
 B.~Shmueli, ``Matthews {Correlation} {Coefficient} is {The} {Best}
   {Classification} {Metric} {You}’ve {Never} {Heard} {Of},'' May 2020.
 
+\bibitem{noauthor_cross_2023}
+``Cross {Validation}, {Explained} - {Sharp} {Sight},'' Dec. 2023.
+\newblock Section: machine learning.
+
+\bibitem{bergstra_random_nodate}
+J.~Bergstra and Y.~Bengio, ``Random {Search} for {Hyper}-{Parameter}
+  {Optimization},''
+
 \bibitem{lundberg_unified_2017}
 S.~M. Lundberg and S.-I. Lee, ``A {Unified} {Approach} to {Interpreting}
   {Model} {Predictions},'' in {\em Advances in {Neural} {Information}
@@ -91,10 +99,6 @@ H.~M and S.~M.N, ``A {Review} on {Evaluation} {Metrics} for {Data}
 
 \bibitem{rutecki_best_nodate}
 M.~Rutecki, ``Best techniques and metrics for {Imbalanced} {Dataset}.''
-
-\bibitem{bergstra_random_nodate}
-J.~Bergstra and Y.~Bengio, ``Random {Search} for {Hyper}-{Parameter}
-  {Optimization},''
 
 \bibitem{borys_explainable_2023}
 K.~Borys, Y.~A. Schmitt, M.~Nauta, C.~Seifert, N.~Krämer, C.~M. Friedrich, and
