@@ -446,6 +446,118 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{tp}%
+{%
+name={TP},%
+sort={TP},%
+type={acronym},%
+first={True Positive\glsspace (TP)},%
+firstplural={True Positive\acrpluralsuffix \glsspace (TP\acrpluralsuffix )},%
+text={TP},%
+plural={TP\acrpluralsuffix },%
+description={True Positive},%
+descriptionplural={True Positive\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={True Positive},%
+longplural={True Positives},%
+short={TP},%
+shortplural={TPs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{tn}%
+{%
+name={TN},%
+sort={TN},%
+type={acronym},%
+first={True Negative\glsspace (TN)},%
+firstplural={True Negative\acrpluralsuffix \glsspace (TN\acrpluralsuffix )},%
+text={TN},%
+plural={TN\acrpluralsuffix },%
+description={True Negative},%
+descriptionplural={True Negative\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={True Negative},%
+longplural={True Negatives},%
+short={TN},%
+shortplural={TNs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{fp}%
+{%
+name={FP},%
+sort={FP},%
+type={acronym},%
+first={False Positive\glsspace (FP)},%
+firstplural={False Positive\acrpluralsuffix \glsspace (FP\acrpluralsuffix )},%
+text={FP},%
+plural={FP\acrpluralsuffix },%
+description={False Positive},%
+descriptionplural={False Positive\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={False Positive},%
+longplural={False Positives},%
+short={FP},%
+shortplural={FPs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{fn}%
+{%
+name={FN},%
+sort={FN},%
+type={acronym},%
+first={False Negative\glsspace (FN)},%
+firstplural={False Negative\acrpluralsuffix \glsspace (FN\acrpluralsuffix )},%
+text={FN},%
+plural={FN\acrpluralsuffix },%
+description={False Negative},%
+descriptionplural={False Negative\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={False Negative},%
+longplural={False Negatives},%
+short={FN},%
+shortplural={FNs},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{shap}%
 {%
 name={SHAP},%

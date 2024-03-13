@@ -1,0 +1,83 @@
+Now that we know what a classifier is, how it works, and the different types of classifiers, we need to know which classifier is the best for our problem, for this, we need to use some metric to evaluate the performance of the classifiers. Before we describe the metrics we need to understand the values that we are going to use to calculate these metrics, the values are:
+
+\newacronym{tp}{TP}{True Positive}
+\newacronym{tn}{TN}{True Negative}
+\newacronym{fp}{FP}{False Positive}
+\newacronym{fn}{FN}{False Negative}
+
+\begin{itemize}
+    \item \ac{tp}: The number of instances that are positive and the classifier correctly classified as positive.
+    \item \ac{tn}: The number of instances that are negative and the classifier correctly classified as negative.
+    \item \ac{fp}: The number of instances that are negative and the classifier incorrectly classified as positive.
+    \item \ac{fn}: The number of instances that are positive and the classifier incorrectly classified as negative.
+\end{itemize}
+
+Now that we have our building blocks for the metrics, we can describe the main four metrics:
+
+
+\begin{itemize}
+    \item \textbf{Accuracy}: Proportion of correct predictions over the total number of instances evaluated. $Accuracy = \frac{TP + TN}{TP + TN + FP + FN}$
+    \item \textbf{Recall}: Proportion of \ac{tp} results among the number of all positive instances. $Recall = \frac{TP}{TP + FN}$
+    \item \textbf{Precision}: The proportion of \ac{tp} results among the number of cases that were predicted to be positive. $Precision = \frac{TP}{TP + FP}$
+    \item \textbf{Specificity}: The proportion of \ac{tn} results among the number of cases that were actually negative. $Specificity = \frac{TN}{TN + FP}$
+\end{itemize}
+
+A confusion matrix is a table, that is used to see the performance of the classifier in a more detailed way, it shows the number of \ac{tp}, \ac{tn}, \ac{fp}, and \ac{fn}, this is shown in Table \ref{TAB:ConfusionMatrix}. We can use this table to calculate all the metrics we have seen before. The table is split into four quadrants, the top left quadrant is the \ac{tp}, the top right quadrant is the \ac{fp}, the bottom left quadrant is the \ac{fn}, and the bottom right quadrant is the \ac{tn}, what we want is to have as many \ac{tp} and \ac{tn} as possible since these are the ones that have been correctly classified.
+
+\begin{table}[Confusion Matrix]{TAB:ConfusionMatrix}{Confusion Matrix}
+    \begin{tabular}{cccc}
+            \hline
+            & \textbf{Predicted Positive} & \textbf{Predicted Negative} \\
+            \hline \hline
+            \textbf{Actual Positive} & \acl{tp} & \acl{fn} \\
+            \textbf{Actual Negative} & \acl{fp}  & \acl{tn} \\
+            \hline
+        \end{tabular}
+\end{table}
+
+
+The problem with the accuracy metric is that it is not a good metric when the classes are imbalanced, for example, if we have 95\% of the instances of class 1 and 5\% of the instances of class 2, a classifier that always predicts the class 1 will have a 95\% accuracy, but it is not a good classifier. For this reason, we need to use other metrics, but we can also fix the accuracy metric by using the \textit{Balanced Accuracy}, which is the average of the recall of each class, this metric is better than the accuracy when the classes are imbalanced, the formula for the balanced accuracy is shown in Equation \ref{EQ:BALANCEDACCURACY}.
+
+\begin{equation}[EQ:BALANCEDACCURACY]{Balanced Accuracy}
+    \boxed{Balanced Accuracy = \frac{Recall + Specificity}{2}}
+\end{equation}
+
+With this new accuracy metric, we can see a better performance of the classifier when the classes are imbalanced. We can clearly see the difference between the accuracy and the balanced accuracy with a quick example, if we have a dataset with 100 instances, 97 of them are positive and 3 of them are negative, and we have a classifier that predicted 96 samples as positive and 4 as negative, this is expressed in the Table \ref{TAB:ConfusionMatrixExample}, lets calculate the accuracy and the balanced accuracy.
+
+\begin{table}[Confusion Matrix Example]{TAB:ConfusionMatrixExample}{Confusion Matrix Example}
+    \begin{tabular}{cccc}
+            \hline
+            & \textbf{Predicted Positive} & \textbf{Predicted Negative} \\
+            \hline \hline
+            \textbf{Actual Positive} & 94 & 3 \\
+            \textbf{Actual Negative} & 2 & 1 \\
+            \hline
+        \end{tabular}
+\end{table}
+
+\begin{itemize}
+    \item \textbf{Accuracy}: $ \frac{TP + TN}{TP + TN + FP + FN} = \frac{94 + 1}{94+1+2+1} = \frac{95}{100} = 95.00\%$
+    \item \textbf{Recall}: $\frac{TP}{TP + FN}=\frac{94}{94+3} = 96.91\%$
+    \item \textbf{Specificity}: $\frac{TN}{TN + FP}=\frac{1}{1+3} = 25.00\%$
+    \item \textbf{Balanced Accuracy}: $\frac{Recall + Specificity}{2}=\frac{0.9691 + 0.25}{2} = 60.95\%$
+\end{itemize}
+
+As we can see, we obtained a 95\% accuracy, but the balanced accuracy is 60.95\%, this is a big difference and represents better the performance of the classifier which misclassified a high percentage of the negative instances.
+
+Apart from these basic metrics we have other metrics that are based on these, for example, we have the \textit{F-Beta Score}, which is the weighted harmonic mean of the precision and recall, depending on the value of $\beta$ we can give more importance to the precision or the recall, for example, if we want to give more importance to the recall we can use the \textit{F2 Score}, which means that the $\beta$ is 2, and if we want to give more importance to the precision we can use the \textit{F0.5 Score}, which means that the $\beta$ is 0.5. The general formula for the F-Beta Score is shown in Equation \ref{EQ:FBETA}. This metric can be really useful when we want to give more importance to one of the metrics, for example, if we are predicting a disease, we want to give more importance to the recall since we want to detect as many cases as possible, even if we have some \ac{fp}, but if we are predicting if a person is going to buy a product, we want to give more importance to the precision, since we want to avoid \ac{fp}.
+
+\begin{equation}[EQ:FBETA]{F Beta Score}
+    \boxed{F_{\beta} = (1+\beta^2)\cdot\frac{precision \cdot recall}{(\beta^2\cdot precision)+recall}}
+\end{equation}
+
+We also have the \textit{Matthews Correlation Coefficient}, this metric tries to summarize the confusion matrix into a single value, it doesn't take into account the class imbalance, so when the classes are imbalanced F$\beta$ Score is better \cite{sisters_matthews_2020}, but when the classes are balanced the Matthews Correlation Coefficient can be useful, it measures the correlation between the true and predicted values \cite{shmueli_matthews_2020}. The formula for the Matthews Correlation Coefficient is shown in Equation \ref{EQ:MCC}.
+
+\begin{equation}[EQ:MCC]{Matthews Correlation Coefficient}
+    \boxed{MCC = \frac{TP \cdot TN - FP \cdot FN}{\sqrt{(TP + FP)(TP + FN)(TN + FP)(TN + FN)}}}
+\end{equation}
+
+The last metric we are going to mention is the \textit{ROC AUC}, this metric is used to measure the performance of the classifier, it is the area under the curve of the Receiver Operating Characteristic (ROC) curve, this curve is a plot of the true positive rate (Recall) against the \acl{fp} rate ($FPR = \frac{FP}{FP + TN}$), the ROC curve is a good way to see the performance of the classifier, the closer the curve is to the top left corner, the better the performance of the classifier. The area under the curve is the ROC AUC, and it is a value between 0 and 1, the closer to 1 the better the performance of the classifier, if the area is 0.5 or the curve is close to the diagonal, the classifier is not better than random guessing. An example of an ROC curve is shown in Figure \ref{FIG:ROC}, we can see that the curve is somewhat close to the top left corner so it is a good classifier but there is still room for improvement. This metric is really useful when the classes are balanced, if the classes are imbalanced the ROC AUC can be misleading, and thus we will want to use the aforementioned metric F$\beta$ Score.
+
+\begin{figure}[ROC Curve Example]{FIG:ROC}{Example of a ROC Curve, the y-axis is the True Positive Rate or Recall, and the x-axis is the \ac{fp} Rate}
+    \image{10cm}{}{roc.png}
+\end{figure}

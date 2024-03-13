@@ -21,15 +21,36 @@ A.~Natekin and A.~Knoll, ``Gradient boosting machines, a tutorial,'' {\em
   Frontiers in Neurorobotics}, vol.~7, Dec. 2013.
 \newblock Publisher: Frontiers.
 
+\bibitem{hemashreekilari_understanding_2023-3}
+Hemashreekilari, ``Understanding {Gradient} {Boosting},'' Sept. 2023.
+
 \bibitem{breiman_random_2001}
 L.~Breiman, ``Random {Forests},'' {\em Machine Learning}, vol.~45, pp.~5--32,
   Oct. 2001.
 
+\bibitem{hemashreekilari_understanding_2023-2}
+Hemashreekilari, ``Understanding {Random} {Forest},'' Aug. 2023.
+
 \bibitem{scikit_learn_bagging_nodate}
 {Scikit Learn}, ``Bagging {Classifier}.''
 
+\bibitem{hemashreekilari_understanding_2023}
+Hemashreekilari, ``Understanding {Bagging},'' Aug. 2023.
+
 \bibitem{wolpert_stacked_nodate}
 D.~H. Wolpert, ``{STACKED} {GENERALIZATION},''
+
+\bibitem{ceballos_stacking_2019}
+F.~Ceballos, ``Stacking {Classifiers} for {Higher} {Predictive}
+  {Performance},'' Sept. 2019.
+
+\bibitem{sisters_matthews_2020}
+L.~Sisters, ``Matthews {Correlation} {Coefficient}: when to use it and when to
+  avoid it,'' May 2020.
+
+\bibitem{shmueli_matthews_2020}
+B.~Shmueli, ``Matthews {Correlation} {Coefficient} is {The} {Best}
+  {Classification} {Metric} {You}’ve {Never} {Heard} {Of},'' May 2020.
 
 \bibitem{lundberg_unified_2017}
 S.~M. Lundberg and S.-I. Lee, ``A {Unified} {Approach} to {Interpreting}

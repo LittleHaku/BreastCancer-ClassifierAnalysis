@@ -3,8 +3,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\hbox to\@tempdima {2.1\hfil } Balanced Accuracy\relax }{9}{equation.2.2.1}%
+\contentsline {table}{\hbox to\@tempdima {2.2\hfil } F Beta Score\relax }{9}{equation.2.2.2}%
+\contentsline {table}{\hbox to\@tempdima {2.3\hfil } Matthews Correlation Coefficient\relax }{10}{equation.2.2.3}%
 \addvspace {10\p@ }
-\contentsline {table}{\hbox to\@tempdima {3.1\hfil } Standardization\relax }{11}{equation.3.4.1}%
+\contentsline {table}{\hbox to\@tempdima {3.1\hfil } Standardization\relax }{17}{equation.3.4.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

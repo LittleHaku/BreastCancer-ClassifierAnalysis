@@ -16,51 +16,51 @@
 \contentsline {subsubsection}{Gaussian Naive Bayes}{5}{section*.17}%
 \contentsline {subsection}{\numberline {2.1.2}Ensemble Classifiers}{5}{subsection.2.1.2}%
 \contentsline {subsubsection}{Gradient Boosting}{5}{section*.18}%
-\contentsline {subsubsection}{AdaBoost}{5}{section*.19}%
-\contentsline {subsubsection}{Random Forest}{5}{section*.20}%
-\contentsline {subsubsection}{Voting Classifier}{5}{section*.21}%
-\contentsline {subsubsection}{Bagging Classifier}{6}{section*.22}%
-\contentsline {subsubsection}{Stacking Classifier}{6}{section*.23}%
-\contentsline {section}{\numberline {2.2}Classifier Optimization}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Evaluation of Classifiers}{6}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Explainable AI}{6}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Explainable AI}{6}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}SHAP}{6}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Web Application Development}{6}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Design and Implementation}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Project Structure}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Requirements}{9}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Functional Requirements}{9}{subsection.3.2.1}%
-\contentsline {subsubsection}{Dataset}{9}{section*.26}%
-\contentsline {subsubsection}{Classifiers}{9}{section*.27}%
-\contentsline {subsubsection}{Explainable Artificial Intelligence}{9}{section*.28}%
-\contentsline {subsubsection}{Web Application}{9}{section*.29}%
-\contentsline {subsection}{\numberline {3.2.2}Non-Functional Requirements}{9}{subsection.3.2.2}%
-\contentsline {subsubsection}{Classifiers}{10}{section*.30}%
-\contentsline {subsubsection}{Web Application}{10}{section*.31}%
-\contentsline {section}{\numberline {3.3}Exploratory Data Analysis}{10}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Descriptive Statistics}{10}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Data Visualization}{11}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Data Preprocessing}{11}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Scaling and Normalization}{11}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Principal Component Analysis}{11}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Building and Optimizing Classifiers}{12}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Comparison of Classifiers}{13}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Optimization of Classifiers}{14}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}SHAP Implementation}{15}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Web Application Development}{16}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Experiments and Results}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Exploratory Data Analysis}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Classifier Comparison}{19}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Base Classifiers Comparison}{19}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Ensemble Classifiers Comparison}{19}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Choosing the Best Classifier}{19}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}SHAP Analysis}{19}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Global Interpretability}{19}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Local Interpretability}{19}{subsection.4.3.2}%
-\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{21}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusions}{21}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{21}{section.5.2}%
-\contentsline {chapter}{Bibliography}{24}{chapter*.36}%
-\contentsline {chapter}{Acronyms}{25}{section*.37}%
-\contentsline {part}{Appendices}{27}{part.1}%
+\contentsline {subsubsection}{AdaBoost}{6}{section*.20}%
+\contentsline {subsubsection}{Random Forest}{6}{section*.21}%
+\contentsline {subsubsection}{Voting Classifier}{6}{section*.23}%
+\contentsline {subsubsection}{Bagging Classifier}{7}{section*.24}%
+\contentsline {subsubsection}{Stacking Classifier}{7}{section*.26}%
+\contentsline {section}{\numberline {2.2}Evaluation of Classifiers}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Classifier Optimization}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Explainable AI}{11}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Explainable AI}{11}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}SHAP}{11}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Web Application Development}{11}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Design and Implementation}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Project Structure}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Requirements}{15}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Functional Requirements}{15}{subsection.3.2.1}%
+\contentsline {subsubsection}{Dataset}{15}{section*.33}%
+\contentsline {subsubsection}{Classifiers}{15}{section*.34}%
+\contentsline {subsubsection}{Explainable Artificial Intelligence}{15}{section*.35}%
+\contentsline {subsubsection}{Web Application}{15}{section*.36}%
+\contentsline {subsection}{\numberline {3.2.2}Non-Functional Requirements}{15}{subsection.3.2.2}%
+\contentsline {subsubsection}{Classifiers}{16}{section*.37}%
+\contentsline {subsubsection}{Web Application}{16}{section*.38}%
+\contentsline {section}{\numberline {3.3}Exploratory Data Analysis}{16}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Descriptive Statistics}{16}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Data Visualization}{17}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Data Preprocessing}{17}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Scaling and Normalization}{17}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Principal Component Analysis}{17}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Building and Optimizing Classifiers}{18}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Comparison of Classifiers}{19}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Optimization of Classifiers}{20}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}SHAP Implementation}{21}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Web Application Development}{22}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Experiments and Results}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Exploratory Data Analysis}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Classifier Comparison}{25}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Base Classifiers Comparison}{25}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Ensemble Classifiers Comparison}{25}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Choosing the Best Classifier}{25}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}SHAP Analysis}{25}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Global Interpretability}{25}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Local Interpretability}{25}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusions}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{27}{section.5.2}%
+\contentsline {chapter}{Bibliography}{30}{chapter*.43}%
+\contentsline {chapter}{Acronyms}{31}{section*.44}%
+\contentsline {part}{Appendices}{33}{part.1}%
