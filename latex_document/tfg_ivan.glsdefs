@@ -586,34 +586,6 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{shap}%
-{%
-name={SHAP},%
-sort={SHAP},%
-type={acronym},%
-first={SHapley Additive exPlanations\glsspace (SHAP)},%
-firstplural={SHapley Additive exPlanations\acrpluralsuffix \glsspace (SHAP\acrpluralsuffix )},%
-text={SHAP},%
-plural={SHAP\acrpluralsuffix },%
-description={SHapley Additive exPlanations},%
-descriptionplural={SHapley Additive exPlanations\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={SHapley Additive exPlanations},%
-longplural={SHapley Additive exPlanationss},%
-short={SHAP},%
-shortplural={SHAPs},%
-counter={page},%
-parent={},%
-%
-}%
-
 \glsdefs@newdocentry{xai}%
 {%
 name={XAI},%
@@ -642,17 +614,17 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{pca}%
+\glsdefs@newdocentry{ai}%
 {%
-name={PCA},%
-sort={PCA},%
+name={AI},%
+sort={AI},%
 type={acronym},%
-first={Principal Component Analysis\glsspace (PCA)},%
-firstplural={Principal Component Analysis\acrpluralsuffix \glsspace (PCA\acrpluralsuffix )},%
-text={PCA},%
-plural={PCA\acrpluralsuffix },%
-description={Principal Component Analysis},%
-descriptionplural={Principal Component Analysis\acrpluralsuffix },%
+first={Artificial Intelligence\glsspace (AI)},%
+firstplural={Artificial Intelligence\acrpluralsuffix \glsspace (AI\acrpluralsuffix )},%
+text={AI},%
+plural={AI\acrpluralsuffix },%
+description={Artificial Intelligence},%
+descriptionplural={Artificial Intelligence\acrpluralsuffix },%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -661,10 +633,10 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={Principal Component Analysis},%
-longplural={Principal Component Analysiss},%
-short={PCA},%
-shortplural={PCAs},%
+long={Artificial Intelligence},%
+longplural={Artificial Intelligences},%
+short={AI},%
+shortplural={AIs},%
 counter={page},%
 parent={},%
 %
@@ -698,17 +670,17 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{ai}%
+\glsdefs@newdocentry{shap}%
 {%
-name={AI},%
-sort={AI},%
+name={SHAP},%
+sort={SHAP},%
 type={acronym},%
-first={Artificial Intelligence\glsspace (AI)},%
-firstplural={Artificial Intelligence\acrpluralsuffix \glsspace (AI\acrpluralsuffix )},%
-text={AI},%
-plural={AI\acrpluralsuffix },%
-description={Artificial Intelligence},%
-descriptionplural={Artificial Intelligence\acrpluralsuffix },%
+first={SHapley Additive exPlanations\glsspace (SHAP)},%
+firstplural={SHapley Additive exPlanations\acrpluralsuffix \glsspace (SHAP\acrpluralsuffix )},%
+text={SHAP},%
+plural={SHAP\acrpluralsuffix },%
+description={SHapley Additive exPlanations},%
+descriptionplural={SHapley Additive exPlanations\acrpluralsuffix },%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -717,10 +689,38 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={Artificial Intelligence},%
-longplural={Artificial Intelligences},%
-short={AI},%
-shortplural={AIs},%
+long={SHapley Additive exPlanations},%
+longplural={SHapley Additive exPlanationss},%
+short={SHAP},%
+shortplural={SHAPs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{pca}%
+{%
+name={PCA},%
+sort={PCA},%
+type={acronym},%
+first={Principal Component Analysis\glsspace (PCA)},%
+firstplural={Principal Component Analysis\acrpluralsuffix \glsspace (PCA\acrpluralsuffix )},%
+text={PCA},%
+plural={PCA\acrpluralsuffix },%
+description={Principal Component Analysis},%
+descriptionplural={Principal Component Analysis\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Principal Component Analysis},%
+longplural={Principal Component Analysiss},%
+short={PCA},%
+shortplural={PCAs},%
 counter={page},%
 parent={},%
 %
