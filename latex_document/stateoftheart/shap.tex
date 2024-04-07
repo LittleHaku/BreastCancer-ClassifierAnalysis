@@ -1,10 +1,16 @@
 \newacronym{shap}{SHAP}{SHapley Additive exPlanations}
 
-\ac{shap} \cite{lundberg_unified_2017} is a model-agnostic approach to \ac{xai}, that is, it can be used with any model since it only uses the input and output. In short, how \ac{shap} works, is that it uses the Shapley values from cooperative game theory to explain the output of any machine learning model, a concept named after Lloyd Shapley who introduced the idea that got him the Nobel Prize in Economic Sciences in 2012 \cite{roth_shapley_1988}.
+\ac{shap} \cite{lundberg_unified_2017} is a model-agnostic approach to \ac{xai}, that is, it can be used with any model since it only uses the input and output. In short, how \ac{shap} works is that it uses the Shapley values from cooperative game theory to explain the output of any machine learning model, a concept named after Lloyd Shapley who introduced the idea that got him the Nobel Prize in Economic Sciences in 2012 \cite{roth_shapley_1988}.
 
-The Shapley value is a concept from cooperative game theory, it is a way to fairly distribute the loot obtained by a coalition of players. The difference is that in \ac{shap} instead of players we have features and instead of loot, we have the predicted output as a probability. The Shapley value is the average contribution of a feature to the prediction, and it is calculated by averaging the marginal contributions of a feature to the prediction over all possible orderings of the features. The marginal contribution of a feature to the prediction is the difference between the prediction with the feature and the prediction without the feature. This is done for all possible subsets of features, and then the Shapley value is the average of all these marginal contributions. This is done for all the features, and then we have the Shapley values, which are the importance of the features for the prediction.
+The Shapley value is a concept from cooperative game theory. It is a way to fairly distribute the loot obtained by a coalition of players. The difference is that in \ac{shap} instead of players we have features and instead of loot, we have the predicted output as a probability. The Shapley value is the average contribution of a feature to the prediction, and it is calculated by averaging the marginal contributions of a feature to the prediction over all possible orderings of the features. The marginal contribution of a feature to the prediction is the difference between the prediction with the feature and the prediction without the feature. 
+This is done for all possible subsets of features, and then the Shapley value is the average of all these marginal contributions. 
+This is done for all the features, and then we have the Shapley values, which are the importance of the features for the prediction. \ab{is the sentence repeated? it is not exactly the same but it is saying the same thing basically, right?}
 
-To better understand how these values are obtained let's give an example. To change topics instead of breast cancer, let's say we want to predict the price of a car, and for this, we will have three features, the year of the car, the horsepowers, and the brand. Now, we want to know how much each feature contributes to the price of the car. To do this first we have to obtain the \textbf{powerset} of the features, which is the set of all possible subsets of the features, going from $f=0$ to $f=3$, where $f$ is the number of features in the subset, we can see the power set in Figure \ref{FIG:POWER_SET}.
+To better understand how these values are obtained 
+let's 
+give an example. To change topics instead of breast cancer, 
+let's 
+say we want to predict the price of a car, and for this, we will have three features: the year of the car, the horsepowers, and the brand. Now, we want to know how much each feature contributes to the price of the car. To do this, first we have to obtain the \textbf{powerset} of the features, which is the set of all possible subsets of the features, going from $f=0$ to $f=3$, where $f$ is the number of features in the subset, we can see the power set in Figure \ref{FIG:POWER_SET}.
 
 \begin{figure}[Powerset Example]{FIG:POWER_SET}{Powerset with the features of the car example}
     \image{10cm}{}{powerset.png}
@@ -22,7 +28,9 @@ All the nodes that are connected differ by just one feature, knowing this we can
     MC_{Brand, \{Brand\}(x)} = Prediction_{\{Brand\}(x)} - Prediction_{\emptyset(x)} = 24.121 - 25.000 = -879
 \end{equation}
 
-Each edge also has a weight, the important thing to note is that the weights are the same for all the edges in a row and that the weights in a row add up to 1. The way to obtain this weight then, is by knowing the number of edges in a row and then dividing 1 by the number of edges to obtain the number of edges we can use basic combinatorics. First, the number of nodes in a row is given by the binomial coefficient, which is given by $F \choose f$, where $F$ is the number of features, and $f$ is the number of features in the subset just like in the power set. Then the number of edges is given by $f \cdot {F \choose f}$, that is, to get the weights of the nodes that connect the base model ($f=0$) to the models with one feature ($f=1$) we have to divide 1 by the number of edges, which is $1 \cdot {3 \choose 1} = 3$, and then we get the weights 1/3, 1/3, and 1/3. This is done for all the rows, and we obtain the weights shown in Table \ref{TAB:WEIGHTS}.
+Each edge also has a weight, the important thing to note is that the weights are the same for all the edges in a row and that the weights in a row add up to 1. The way to obtain this weight then, is by knowing the number of edges in a row and then dividing 1 by the number of edges 
+\ab{I think here the sentence needs to be split in two, right?}
+to obtain the number of edges we can use basic combinatorics. First, the number of nodes in a row is given by the binomial coefficient, which is given by $F \choose f$, where $F$ is the number of features, and $f$ is the number of features in the subset just like in the power set. Then the number of edges is given by $f \cdot {F \choose f}$, that is, to get the weights of the nodes that connect the base model ($f=0$) to the models with one feature ($f=1$) we have to divide 1 by the number of edges, which is $1 \cdot {3 \choose 1} = 3$, and then we get the weights 1/3, 1/3, and 1/3. This is done for all the rows, and we obtain the weights shown in Table \ref{TAB:WEIGHTS}.
 
 \begin{table}[Weights]{TAB:WEIGHTS}{Weights for the example}
     \begin{tabular}{|c|c|c|c|}
@@ -50,7 +58,7 @@ Now that we have the weights, we can do the weighted sum of the marginal contrib
     \end{split}
 \end{equation}
 
-With this, we can see that the brand contributes -17801 euros to the price of the car, and we can do the same for the other features, we obtain the Shapley values for all the features and see how much each feature contributes to the price of the car, and we can see the results in Table \ref{TAB:SHAPLEY_VALUES}. If we add all the Shapley values we obtain the difference between the base prediction with no features, a lot of times represented as the mean of the target $E(y)$, and the prediction with all the features, which is the prediction of the model, $f(x)$.
+With this, we can see that the brand contributes -17801 euros to the price of the car, and we can do the same for the other features, we obtain the Shapley values for all the features and see how much each feature contributes to the price of the car; we summarize the results in Table \ref{TAB:SHAPLEY_VALUES}. If we add all the Shapley values we obtain the difference between the base prediction with no features, a lot of times represented as the mean of the target $E(y)$, and the prediction with all the features, which is the prediction of the model, $f(x)$.
 \begin{table}[Shapley Values]{TAB:SHAPLEY_VALUES}{Shapley values for the example}
     \begin{tabular}{|c|c|}
         \hline
@@ -65,7 +73,7 @@ With this, we can see that the brand contributes -17801 euros to the price of th
     \end{tabular}
 \end{table}
 
-Then we have that the general formula for the Shapley value is given by Equation \ref{EQ:SHAPLEY}. Now we understand how the Shapley values are obtained and what they are, and we can see why \ac{shap} is model-agnostic.
+Then we have that the general formula for the Shapley value is given by Equation \ref{EQ:SHAPLEY}. Now we understand how the Shapley values are obtained and what they are, and we can see why \ac{shap} is model-agnostic. \ab{'since it does not depend on the model.'}
 
 \begin{equation}[EQ:SHAPLEY]{Shapley Value}
    \boxed{ SV_{feature}(x) = \sum_{{set:feature} \in {set}} \frac{|{set}| }{{F \choose |{set}|}} \cdot ({prediction}_{set} - {prediction}_{{set} \backslash {feature}})}
