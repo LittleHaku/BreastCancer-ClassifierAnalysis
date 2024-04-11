@@ -1,0 +1,123 @@
+\begin{thebibliography}{10}
+
+\bibitem{wcrf_international_breast_nodate}
+{WCRF International}, ``Breast cancer statistics {\textbar} {World} {Cancer}
+  {Research} {Fund} {International}.''
+
+\bibitem{american_cancer_society_breast_nodate}
+{American Cancer Society}, ``Breast {Cancer} {Statistics} {\textbar} {How}
+  {Common} {Is} {Breast} {Cancer}?.''
+
+\bibitem{yu_diagnostic_2012}
+Y.-H. Yu, W.~Wei, and J.-L. Liu, ``Diagnostic value of fine-needle aspiration
+  biopsy for breast mass: a systematic review and meta-analysis,'' {\em BMC
+  Cancer}, vol.~12, p.~41, Jan. 2012.
+
+\bibitem{noauthor_sklearnlinear_modelsgdclassifier_nodate}
+``sklearn.linear\_model.{SGDClassifier}.''
+
+\bibitem{natekin_gradient_2013}
+A.~Natekin and A.~Knoll, ``Gradient boosting machines, a tutorial,'' {\em
+  Frontiers in Neurorobotics}, vol.~7, Dec. 2013.
+\newblock Publisher: Frontiers.
+
+\bibitem{hemashreekilari_understanding_2023-3}
+Hemashreekilari, ``Understanding {Gradient} {Boosting},'' Sept. 2023.
+
+\bibitem{breiman_random_2001}
+L.~Breiman, ``Random {Forests},'' {\em Machine Learning}, vol.~45, pp.~5--32,
+  Oct. 2001.
+
+\bibitem{hemashreekilari_understanding_2023-2}
+Hemashreekilari, ``Understanding {Random} {Forest},'' Aug. 2023.
+
+\bibitem{scikit_learn_bagging_nodate}
+{Scikit Learn}, ``Bagging {Classifier}.''
+
+\bibitem{hemashreekilari_understanding_2023}
+Hemashreekilari, ``Understanding {Bagging},'' Aug. 2023.
+
+\bibitem{wolpert_stacked_nodate}
+D.~H. Wolpert, ``{STACKED} {GENERALIZATION},''
+
+\bibitem{ceballos_stacking_2019}
+F.~Ceballos, ``Stacking {Classifiers} for {Higher} {Predictive}
+  {Performance},'' Sept. 2019.
+
+\bibitem{m_review_2015}
+H.~M and S.~M.N, ``A {Review} on {Evaluation} {Metrics} for {Data}
+  {Classification} {Evaluations},'' {\em International Journal of Data Mining
+  \& Knowledge Management Process}, vol.~5, pp.~01--11, Mar. 2015.
+
+\bibitem{sisters_matthews_2020}
+L.~Sisters, ``Matthews {Correlation} {Coefficient}: when to use it and when to
+  avoid it,'' May 2020.
+
+\bibitem{shmueli_matthews_2020}
+B.~Shmueli, ``Matthews {Correlation} {Coefficient} is {The} {Best}
+  {Classification} {Metric} {You}’ve {Never} {Heard} {Of},'' May 2020.
+
+\bibitem{noauthor_cross_2023}
+``Cross {Validation}, {Explained} - {Sharp} {Sight},'' Dec. 2023.
+\newblock Section: machine learning.
+
+\bibitem{bergstra_random_nodate}
+J.~Bergstra and Y.~Bengio, ``Random {Search} for {Hyper}-{Parameter}
+  {Optimization},''
+
+\bibitem{borys_explainable_2023}
+K.~Borys, Y.~A. Schmitt, M.~Nauta, C.~Seifert, N.~Krämer, C.~M. Friedrich, and
+  F.~Nensa, ``Explainable {AI} in medical imaging: {An} overview for clinical
+  practitioners – {Beyond} saliency-based {XAI} approaches,'' {\em European
+  Journal of Radiology}, vol.~162, p.~110786, May 2023.
+
+\bibitem{lundberg_unified_2017}
+S.~M. Lundberg and S.-I. Lee, ``A {Unified} {Approach} to {Interpreting}
+  {Model} {Predictions},'' in {\em Advances in {Neural} {Information}
+  {Processing} {Systems}} (I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach,
+  R.~Fergus, S.~Vishwanathan, and R.~Garnett, eds.), vol.~30, Curran
+  Associates, Inc., 2017.
+
+\bibitem{roth_shapley_1988}
+A.~E. Roth, {\em The {Shapley} value: essays in honor of {Lloyd} {S}.
+  {Shapley}}.
+\newblock Cambridge University Press, Oct. 1988.
+\newblock Google-Books-ID: JK7MKu2A9cIC.
+
+\bibitem{william_wolberg_breast_1993}
+O.~M. William~Wolberg, ``Breast {Cancer} {Wisconsin} ({Diagnostic}),'' 1993.
+
+\bibitem{sidey-gibbons_machine_2019}
+J.~A.~M. Sidey-Gibbons and C.~J. Sidey-Gibbons, ``Machine learning in medicine:
+  a practical introduction,'' {\em BMC Medical Research Methodology}, vol.~19,
+  pp.~1--18, Dec. 2019.
+\newblock Number: 1 Publisher: BioMed Central.
+
+\bibitem{dinc_evaluation_2014}
+I.~Dinç, M.~Sigdel, S.~Dinç, M.~S. Sigdel, M.~L. Pusey, and R.~S. Aygün,
+  ``Evaluation of {Normalization} and {PCA} on the {Performance} of
+  {Classifiers} for {Protein} {Crystallization} {Images},'' {\em Proceedings of
+  IEEE Southeastcon / IEEE Southeastcon. IEEE Southeastcon}, vol.~2014,
+  p.~10.1109/SECON.2014.6950744, Mar. 2014.
+
+\bibitem{zhao_pre-process_2019}
+K.~Zhao, ``Pre-{Process} {Data} with {Pipeline} to {Prevent} {Data} {Leakage}
+  during {Cross}-{Validation}.,'' Sept. 2019.
+
+\bibitem{daffertshofer_pca_2004}
+A.~Daffertshofer, C.~J. Lamoth, O.~G. Meijer, and P.~J. Beek, ``{PCA} in
+  studying coordination and variability: a tutorial,'' {\em Clinical
+  Biomechanics}, vol.~19, pp.~415--428, May 2004.
+
+\bibitem{rutecki_best_nodate}
+M.~Rutecki, ``Best techniques and metrics for {Imbalanced} {Dataset}.''
+
+\bibitem{massafra_analyzing_2023}
+R.~Massafra, A.~Fanizzi, N.~Amoroso, S.~Bove, M.~C. Comes, D.~Pomarico,
+  V.~Didonna, S.~Diotaiuti, L.~Galati, F.~Giotta, D.~La~Forgia, A.~Latorre,
+  A.~Lombardi, A.~Nardone, M.~I. Pastena, C.~M. Ressa, L.~Rinaldi, P.~Tamborra,
+  A.~Zito, A.~V. Paradiso, R.~Bellotti, and V.~Lorusso, ``Analyzing breast
+  cancer invasive disease event classification through explainable artificial
+  intelligence,'' {\em Frontiers in Medicine}, vol.~10, 2023.
+
+\end{thebibliography}
