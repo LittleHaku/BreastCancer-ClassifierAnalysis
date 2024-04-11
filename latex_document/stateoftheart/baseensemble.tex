@@ -1,11 +1,15 @@
+\ab{perfect, you can ignore my previous comment about ac and acronyms, you are already doing it ;)}
+
 \newacronym{fnab}{FNAB}{Fine Needle Aspiration Biopsy}
 
-Classification is the process of taking input and assigning it to a class, it is a fundamental task in machine learning. There are different types of classification, but for this work, we are going to focus on binary supervised classification. Binary means that the classification will only be carried out between two classes, in our case, benign and malignant; supervised means that the training process will be performed with labeled data, that is, we will train that classifier with \ac{fnab} samples that have been labeled as benign or malignant by a pathologist. Our classifiers will not use the image directly, but rather the features extracted from the images.
+Classification is the process of taking input and assigning it to a class, it is a fundamental task in machine learning. There are different types of classification, but for this work, we are going to focus on binary supervised classification. Binary means that the classification will only be carried out between two classes, in our case, benign and malignant; supervised means that the training process will be performed with labeled data, that is, we will train that classifier with \ac{fnab} samples that have been labeled as benign or malignant by a pathologist. 
+Our classifiers will not use the image directly, but rather the features extracted from the images. \ab{I would rephrase this last sentence to something like 'While classifiers may use many different types of information as input, in this work we will focus on exploiting the features extracted from the images, and leave for the future using the image directly.'}
 
 A classifier is an algorithm that performs the aforementioned task, it receives an input and assigns it to a class. To train a classifier we must first have a dataset, this dataset will be divided into two parts, the training set, and the test set. The training set will be used to train the classifier, which means that the classifier will learn from this data trying to find patterns that allow it to classify the samples correctly. The test set will be used to evaluate the classifier, this set will be used to see how well the classifier performs with data that it has not seen before, this is done to ensure that the classifier is not overfitting (memorizing the training data) and that it can generalize to new data.
 
-Classifiers can be split into two main groups, base classifiers and ensemble classifiers. Their main difference is that base classifiers are single classifiers, while ensemble classifiers are composed of multiple base classifiers. In this section, we will give an overview of the most common base and ensemble classifiers.
+Classifiers can be split into two main groups, base classifiers and ensemble classifiers. \ab{a ref here would be good}
+Their main difference is that base classifiers are single classifiers, while ensemble classifiers are composed of multiple base classifiers. In this section, we will give an overview of the most common base and ensemble classifiers.
 
-
+\ab{perhaps this section could be called '2.1 Basic concepts', and then you could have '2.2 Base classifiers', instead of a subsection of this one}
 
 
