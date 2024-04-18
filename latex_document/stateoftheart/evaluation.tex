@@ -70,21 +70,16 @@ Apart from these basic metrics we have other metrics that are based on these, fo
 \end{equation}
 
 We also have the \textit{Matthews Correlation Coefficient}, this metric tries to summarize the confusion matrix into a single value, it 
-doesn't \ab{in formal English we avoid the use of contractions, as it is too informal or colloquial -- so 'does not'}
-take into account the class imbalance, so when the classes are imbalanced F$\beta$ Score is better \cite{sisters_matthews_2020}, but when the classes are balanced the Matthews Correlation Coefficient can be useful, as it measures the correlation between the true and predicted values \cite{shmueli_matthews_2020}. The formula for the Matthews Correlation Coefficient is shown in Equation \ref{EQ:MCC}.
+does not take into account the class imbalance, so when the classes are imbalanced F$\beta$ Score is better \cite{sisters_matthews_2020}, but when the classes are balanced the Matthews Correlation Coefficient can be useful, as it measures the correlation between the true and predicted values \cite{shmueli_matthews_2020}. The formula for the Matthews Correlation Coefficient is shown in Equation \ref{EQ:MCC}.
 
 \begin{equation}[EQ:MCC]{Matthews Correlation Coefficient}
     \boxed{MCC = \frac{TP \cdot TN - FP \cdot FN}{\sqrt{(TP + FP)(TP + FN)(TN + FP)(TN + FN)}}}
 \end{equation}
 
-The last metric we are going to mention is the \textit{ROC AUC}, 
-this metric is used to measure the performance of the classifier, \ab{this is redundant, are not all the metrics used for that? I suggest to remove this sentence}
-it is the area under 
-%the curve of 
+The last metric we are going to mention is the \textit{ROC AUC} it is the area under %the curve of 
 the Receiver Operating Characteristic (ROC) curve; this curve is a plot of the true positive rate (Recall) against the \acl{fp} rate ($FPR = \frac{FP}{FP + TN}$), the ROC curve is a good way to see the performance of the classifier, the closer the curve is to the top left corner, the better the performance of the classifier. The area under the curve is the ROC AUC, and it is a value between 0 and 1, the closer to 1 the better the performance of the classifier, if the area is 0.5 or the curve is close to the diagonal, the classifier is not better than random guessing. An example of an ROC curve is shown in Figure \ref{FIG:ROC}, we can see that the curve is somewhat close to the top left corner so it is a good classifier but there is still room for improvement. This metric is really useful when the classes are balanced, if the classes are imbalanced the ROC AUC can be misleading, and thus we will want to use the aforementioned metric F$\beta$ Score.
 
-\begin{figure}[ROC Curve Example]{FIG:ROC}{Example of a ROC Curve, the y-axis is the True Positive Rate or Recall, and the x-axis is the \ac{fp} Rate}
+\begin{figure}[ROC Curve Example \cite{chazhoor_roc_2019}.]{FIG:ROC}{Example of a ROC Curve, the y-axis is the True Positive Rate or Recall, and the x-axis is the \ac{fp} Rate \cite{chazhoor_roc_2019}.}
     \image{10cm}{}{roc.png}
 \end{figure}
 
-\ab{where is this figure coming from? if it is not yours, you should include a ref}

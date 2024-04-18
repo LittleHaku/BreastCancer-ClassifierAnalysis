@@ -14,7 +14,7 @@ The base classifiers used are:
 \end{itemize}
 
 Based on the best results of the base classifiers, the ensemble classifiers were built. Some of these ensemble classifiers allow 
-one \ab{'us', I think the current 'one' is misleading}
+us
 to choose the base classifier to use; for these cases, the best base classifiers were used. The ensemble classifiers used are:
 \begin{itemize}
     \item \textbf{Random Forest}
@@ -30,18 +30,24 @@ to choose the base classifier to use; for these cases, the best base classifiers
 To decide if a classifier is better than another, we must use some kind of metric. In Section \ref{SEC:EVALUATION} we explained the metrics that are most commonly used to evaluate the performance of a classifier. Now we have to choose the appropriate metrics for this problem; the most important thing for this problem is to minimize the number of false negatives, since a false negative means that a patient with cancer was classified as healthy, and this could have fatal consequences. To minimize the number of false negatives, we will use the \textit{Recall}, but the problem of only taking into account the recall is that to maximize it, the model could classify all samples as positive; to avoid this we will also use the \textit{Precision} since this will penalize the model for classifying a sample as positive if it was not. To combine these two metrics we will use the \textit{F1 Score}, which is the harmonic mean of the precision and recall. We will also use the \textit{F2 Score}, which is the weighted harmonic mean of the precision and recall, this will give more importance to the recall since we want to minimize the number of false negatives \cite{rutecki_best_nodate}. So, the evaluation metrics sorted by the importance that we will use are:
 
 \begin{itemize}
-    \item \textbf{F1 Score}: $$F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}$$
-    \item \textbf{Recall}: $$Recall = \frac{TP}{TP + FN}$$
-    \item \textbf{F2 Score}: $$F2 = 5 \times \frac{Precision \times Recall}{\frac{4}{Precision} + \frac{1}{Recall}}$$
-    \item \textbf{Precision}: $$Precision = \frac{TP}{TP + FP}$$
+    \item \textbf{F1 Score}: \begin{equation}[EQ:F1SCORE]{F1 Score}
+        F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}
+    \end{equation}
+    \item \textbf{Recall}: \begin{equation}[EQ:RECALL]{Recall}
+        Recall = \frac{TP}{TP + FN}
+    \end{equation}
+    \item \textbf{F2 Score}: \begin{equation}[EQ:F2SCORE]{F2 Score}
+        F2 = 5 \times \frac{Precision \times Recall}{\frac{4}{Precision} + \frac{1}{Recall}}
+    \end{equation}
+    \item \textbf{Precision}: \begin{equation}[EQ:PRECISION]{Precision}
+        Precision = \frac{TP}{TP + FP}
+    \end{equation}
 \end{itemize}
-
-\ab{not sure if it could be interesting to define the equations using the equation environment, so they get a number... let's think about this}
 
 \subsection{Optimization of Classifiers}
 
 To maximize these metrics in the classifiers, we have to optimize the hyperparameters of the classifiers. The hyperparameters are the parameters that are not learned by the model, and they are set before the training process. These can, for example, be the number of neighbors in the \ac{knn} classifier, the number of neurons in the \ac{mlp} classifier, or the maximum depth of the \ac{dt} classifier. To optimize these hyperparameters, we used the \textit{RandomizedSearchCV} followed by the \textit{GridSearchCV}. The reason for using the \textit{RandomizedSearchCV} first is that it can achieve similar results to the \textit{GridSearchCV} but with a lower computational cost \cite{bergstra_random_nodate}, this will allow us to explore a wider range of hyperparameters and have a range of values to use in the \textit{GridSearchCV}. Then we used the \textit{GridSearchCV} to find the best hyperparameters in the range of values found by the \textit{RandomizedSearchCV}, a better explanation of these methods is given in Section \ref{SEC:OPTIMIZATION}.
 
 These searches 
-had \ab{'used'? 'had' sounds strange in this case...}
+used
 a 5-fold \ac{cv} (explained in Section \ref{SEC:OPTIMIZATION}) using the \textit{F1 Score} as the metric to optimize. All the \textit{RandomizedSearchCV} and \textit{GridSearchCV} were done using the same random seed, this means that the split of the dataset was the same for all the classifiers, this ends up in a more reliable result and also allows the reproducibility of the results. This process was done to avoid overfitting and to have a more reliable result, of course, as before, this process was only done in the training set, to avoid data leakage.

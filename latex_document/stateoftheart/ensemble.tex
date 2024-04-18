@@ -12,7 +12,7 @@ Ensemble classifiers are a type of classifier that combines the predictions of m
 \ac{gb} is an ensemble machine learning technique that combines the predictions from several models to improve the overall predictive accuracy. It works by first building a weak model (a model that is slightly better than random guessing) and then building a second model that corrects the errors made by the first model and so on \cite{natekin_gradient_2013}, we can see a graphical representation of the \ac{gb} in the Figure \ref{FIG:GRAD_BOOSTING}.
 
 
-\begin{figure}[Gradient Boosting]{FIG:GRAD_BOOSTING}{Graphical representation of Gradient Boosting \cite{hemashreekilari_understanding_2023-3}}
+\begin{figure}[Gradient Boosting]{FIG:GRAD_BOOSTING}{Graphical representation of Gradient Boosting \cite{hemashreekilari_understanding_2023-3}.}
     \image{10cm}{}{gradient_boosting.png}
 \end{figure}
 
@@ -20,9 +20,9 @@ Ensemble classifiers are a type of classifier that combines the predictions of m
 \ac{ab} is similar to \ac{gb} in the sense that it combines the predictions of multiple models but it does so by giving more weight to the misclassified data points in each iteration.
 
 \subsubsection{Random Forest}
-\ac{rf} is based on using \ac{dt} as base classifiers. It builds multiple \ac{dt} and combines their predictions, it is called random because it uses a random subset of the features to build the \ac{dt} \cite{breiman_random_2001}, this randomness is called bagging. We can see a graphical representation of the \ac{rf} in the Figure \ref{FIG:RAND_FOREST}.
+\ac{rf} is based on using \ac{dt} as base classifiers. It builds multiple \ac{dt} and combines their predictions, it is called random because it uses a random subset of the features to build the \ac{dt} \cite{breiman_random_2001}, this randomness is called bagging, so \acl{rf} is a bagging classifier that uses \ac{dt} as base classifiers \cite{biau_random_2016}, \cite{raschka_how_0000}. We can see a graphical representation of the \ac{rf} in the Figure \ref{FIG:RAND_FOREST}.
 
-\begin{figure}[Random Forest]{FIG:RAND_FOREST}{Graphical representation of Random Forest \cite{hemashreekilari_understanding_2023-2}}
+\begin{figure}[Random Forest]{FIG:RAND_FOREST}{Graphical representation of Random Forest \cite{hemashreekilari_understanding_2023-2}.}
     \image{13cm}{}{random_forest.png}
 \end{figure}
 
@@ -30,17 +30,15 @@ Ensemble classifiers are a type of classifier that combines the predictions of m
 A \ac{vc} as its name suggests, is an ensemble classifier that combines the predictions of multiple classifiers by voting. It can be hard or soft voting, hard voting is the usual voting where the class that gets the most votes is the final prediction, and soft voting is when the average of the probabilities of the classes is used to make the final prediction.
 
 \subsubsection{Bagging Classifier}
-A \ac{bc} is an ensemble classifier that builds multiple base classifiers and combines their predictions by averaging or voting, as it was mentioned before, in bagging the base classifiers are built using a random subset of the features \cite{scikit_learn_bagging_nodate}, we can see a graphical representation of the \ac{bc} in the Figure \ref{FIG:BAGG_CLASSIIFIER}.
+Bagging, also known as Bootstrap aggregation is a technique to build an ensemble classifier by combining multiple base classifiers and combining their predictions by averaging or voting, it was proposed by Breiman \cite{breiman_bagging_1996}. In bagging the base classifiers are built using a random subset of the features \cite{scikit_learn_bagging_nodate}, we can see a graphical representation of the \ac{bc} in the Figure \ref{FIG:BAGG_CLASSIIFIER}.
 
-\ab{but you already mentioned bagging in Random Forest... is it the same? in fact, I know RF can be done via bagging or boosting, it might be better to explain these two briefly in RF, and then here dig deeper in one of them for some (potentially interesting) reason}
-
-\begin{figure}[Bagging Classifier]{FIG:BAGG_CLASSIIFIER}{Graphical representation of Bagging \cite{hemashreekilari_understanding_2023}}
+\begin{figure}[Bagging Classifier]{FIG:BAGG_CLASSIIFIER}{Graphical representation of Bagging \cite{hemashreekilari_understanding_2023}.}
     \image{17cm}{}{bagging.png}
 \end{figure}
 
 \subsubsection{Stacking Classifier}
 A \ac{sc} is an ensemble that combines the base classifiers into a meta-classifier, that is, the sample to be classified goes through the base classifiers and then the predictions of the base classifiers are used as features to build the meta-classifier \cite{wolpert_stacked_nodate}. We can see a graphical representation of the \ac{sc} in the Figure \ref{FIG:STACKING_CLASSIFIER}.
 
-\begin{figure}[Stacking Classifier]{FIG:STACKING_CLASSIFIER}{Graphical representation of Stacking \cite{ceballos_stacking_2019}}
+\begin{figure}[Stacking Classifier]{FIG:STACKING_CLASSIFIER}{Graphical representation of Stacking \cite{ceballos_stacking_2019}.}
     \image{9cm}{}{stacking.png}
 \end{figure}

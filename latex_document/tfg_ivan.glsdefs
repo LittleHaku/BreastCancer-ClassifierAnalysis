@@ -26,6 +26,34 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{xai}%
+{%
+name={XAI},%
+sort={XAI},%
+type={acronym},%
+first={Explainable Artificial Intelligence\glsspace (XAI)},%
+firstplural={Explainable Artificial Intelligence\acrpluralsuffix \glsspace (XAI\acrpluralsuffix )},%
+text={XAI},%
+plural={XAI\acrpluralsuffix },%
+description={Explainable Artificial Intelligence},%
+descriptionplural={Explainable Artificial Intelligence\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Explainable Artificial Intelligence},%
+longplural={Explainable Artificial Intelligences},%
+short={XAI},%
+shortplural={XAIs},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{lr}%
 {%
 name={LR},%
@@ -581,34 +609,6 @@ long={Cross Validation},%
 longplural={Cross Validations},%
 short={CV},%
 shortplural={CVs},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{xai}%
-{%
-name={XAI},%
-sort={XAI},%
-type={acronym},%
-first={Explainable Artificial Intelligence\glsspace (XAI)},%
-firstplural={Explainable Artificial Intelligence\acrpluralsuffix \glsspace (XAI\acrpluralsuffix )},%
-text={XAI},%
-plural={XAI\acrpluralsuffix },%
-description={Explainable Artificial Intelligence},%
-descriptionplural={Explainable Artificial Intelligence\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={Explainable Artificial Intelligence},%
-longplural={Explainable Artificial Intelligences},%
-short={XAI},%
-shortplural={XAIs},%
 counter={page},%
 parent={},%
 %

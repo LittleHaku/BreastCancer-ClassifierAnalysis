@@ -13,6 +13,21 @@ Y.-H. Yu, W.~Wei, and J.-L. Liu, ``Diagnostic value of fine-needle aspiration
   biopsy for breast mass: a systematic review and meta-analysis,'' {\em BMC
   Cancer}, vol.~12, p.~41, Jan. 2012.
 
+\bibitem{yadav_comparative_2020}
+S.~S. Yadav, V.~J. Kadam, and S.~M. Jadhav, ``Comparative {Analysis} of
+  {Ensemble} {Classifier} and {Single} {Base} {Classifier} in {Medical}
+  {Disease} {Diagnosis},'' in {\em Communication and {Intelligent} {Systems}}
+  (J.~C. Bansal, M.~K. Gupta, H.~Sharma, and B.~Agarwal, eds.), (Singapore),
+  pp.~475--489, Springer, 2020.
+
+\bibitem{oza_classifier_2008}
+N.~C. Oza and K.~Tumer, ``Classifier ensembles: {Select} real-world
+  applications,'' {\em Information Fusion}, vol.~9, pp.~4--20, Jan. 2008.
+
+\bibitem{gong_top_2022}
+D.~Gong, ``Top 6 {Machine} {Learning} {Algorithms} for {Classification},'' July
+  2022.
+
 \bibitem{noauthor_sklearnlinear_modelsgdclassifier_nodate}
 ``sklearn.linear\_model.{SGDClassifier}.''
 
@@ -28,8 +43,16 @@ Hemashreekilari, ``Understanding {Gradient} {Boosting},'' Sept. 2023.
 L.~Breiman, ``Random {Forests},'' {\em Machine Learning}, vol.~45, pp.~5--32,
   Oct. 2001.
 
+\bibitem{biau_random_2016}
+G.~Biau and E.~Scornet, ``A random forest guided tour,'' {\em TEST}, vol.~25,
+  pp.~197--227, June 2016.
+
 \bibitem{hemashreekilari_understanding_2023-2}
 Hemashreekilari, ``Understanding {Random} {Forest},'' Aug. 2023.
+
+\bibitem{breiman_bagging_1996}
+L.~Breiman, ``Bagging predictors,'' {\em Machine Learning}, vol.~24,
+  pp.~123--140, Aug. 1996.
 
 \bibitem{scikit_learn_bagging_nodate}
 {Scikit Learn}, ``Bagging {Classifier}.''
@@ -57,6 +80,9 @@ L.~Sisters, ``Matthews {Correlation} {Coefficient}: when to use it and when to
 B.~Shmueli, ``Matthews {Correlation} {Coefficient} is {The} {Best}
   {Classification} {Metric} {You}’ve {Never} {Heard} {Of},'' May 2020.
 
+\bibitem{chazhoor_roc_2019}
+A.~P. Chazhoor, ``{ROC} curve in machine learning,'' July 2019.
+
 \bibitem{noauthor_cross_2023}
 ``Cross {Validation}, {Explained} - {Sharp} {Sight},'' Dec. 2023.
 \newblock Section: machine learning.
@@ -83,6 +109,9 @@ A.~E. Roth, {\em The {Shapley} value: essays in honor of {Lloyd} {S}.
   {Shapley}}.
 \newblock Cambridge University Press, Oct. 1988.
 \newblock Google-Books-ID: JK7MKu2A9cIC.
+
+\bibitem{noauthor_foreword_nodate}
+``Foreword — {Flask} {Documentation} (2.1.x).''
 
 \bibitem{william_wolberg_breast_1993}
 O.~M. William~Wolberg, ``Breast {Cancer} {Wisconsin} ({Diagnostic}),'' 1993.

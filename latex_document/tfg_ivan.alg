@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 11.04.2024  09:41:24
-;; Indexstyle: "/tmp/ICFWRgdfUC", Rawindex: "/tmp/6Ub9NmeWr9", Output: "tfg_ivan.acr"
+;; at 18.04.2024  11:18:06
+;; Indexstyle: "/tmp/sGWhybYuu_", Rawindex: "/tmp/qwG9EcOsmu", Output: "tfg_ivan.acr"
 
 
 Building indexentry-tree:
@@ -39,6 +39,7 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 
 Forming letter-groups:
 Letter-group: "œ¼€„" -> "F"
+Letter-group: "ë€¨" -> "X"
 Letter-group: "´Ë" -> "L"
 Letter-group: "»´È" -> "M"
 Letter-group: "Ð" -> "S"
@@ -59,7 +60,6 @@ Letter-group: "Ú¼" -> "T"
 Letter-group: "œÈ" -> "F"
 Letter-group: "œ¼" -> "F"
 Letter-group: "†å" -> "C"
-Letter-group: "ë€¨" -> "X"
 Letter-group: "€¨" -> "A"
 Letter-group: "»´" -> "M"
 Letter-group: "Ð¤€È" -> "S"

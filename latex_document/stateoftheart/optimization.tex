@@ -14,6 +14,5 @@ Both of these methods use \ac{cv}, a technique that is used to evaluate the perf
 \begin{figure}[Cross Validation]{FIG:CrossValidation}{Graphical representation of a 5 fold \ac{cv} \cite{noauthor_cross_2023}.}
     \image{12cm}{}{cross-validation.png}
 \end{figure}
-\ab{pay attention to the captions: they always should end with '.'}
 
 As we saw, both methods have their advantages and disadvantages, the Grid Search is guaranteed to find the best combination of hyperparameters, but it is not efficient when we have a large number of hyperparameters since it can take hours and even days to finish, the Random Search is faster, but it is not guaranteed to find the best combination of hyperparameters. Researchers have found that Random Search is more efficient than Grid Search, if both methods have the same number of iterations, Random Search will find a better combination of hyperparameters \cite{bergstra_random_nodate}. Knowing this we can first use Random Search to find a boundary of the best hyperparameters and then use Grid Search to find the best combination of hyperparameters.

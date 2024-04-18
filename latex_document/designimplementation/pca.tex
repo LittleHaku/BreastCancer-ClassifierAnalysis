@@ -1,8 +1,6 @@
-Lastly, we select the most important variables using the \ac{pca}. What this does is that it takes the features and transforms them into a new set of features that are linear combinations of the original features trying to maximize the variance of the new features while the correlation between the new features is 0, this is done using orthogonal transformations \cite{daffertshofer_pca_2004}. In our case instead of specifying the number of components we want to keep, we specify the percentage of variance we want to keep, in this case, we want to keep 95\% of the variance. This is done so that we can reduce the number of features while keeping most of the information. In our case, when we plot the cumulative explained variance we can see that with 10 features we can keep 95\% of the variance, this is shown in the Figure \ref{FIG:PCA}. The code snippet \ref{PY:PIPELINE} shows how the pipeline is built.
+Lastly, we select the most important variables using the \ac{pca}. What this does is that it takes the features and transforms them into a new set of features that are linear combinations of the original features trying to maximize the variance of the new features while the correlation between the new features is 0, this is done using orthogonal transformations \cite{daffertshofer_pca_2004}. In our case instead of specifying the number of components we want to keep, we specify the percentage of variance we want to keep, in this case, we want to keep 95\% of the variance. This is done so that we can reduce the number of features while keeping most of the information. In our case, when we plot the cumulative explained variance we can see that with 10 features we can keep 95\% of the variance, this is shown in the Figure \ref{FIG:PCA}.
 
-\begin{figure}[PCA]{FIG:PCA}{Cumulative explained variance when using PCA}
+\begin{figure}[PCA]{FIG:PCA}{Cumulative explained variance when using PCA.}
     \image{10cm}{}{pca.png}
 \end{figure}
 
-
-\PythonCode[PY:PIPELINE]{Building the pipeline}{Building the pipeline with the StandardScaler and PCA}{pipeline.py}{1}{5}{1}
