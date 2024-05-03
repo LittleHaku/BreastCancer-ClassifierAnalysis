@@ -28,6 +28,13 @@ N.~C. Oza and K.~Tumer, ``Classifier ensembles: {Select} real-world
 D.~Gong, ``Top 6 {Machine} {Learning} {Algorithms} for {Classification},'' July
   2022.
 
+\bibitem{pedregosa_scikit-learn_2011}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
+  D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay, ``Scikit-learn:
+  {Machine} {Learning} in {Python},'' {\em Journal of Machine Learning
+  Research}, vol.~12, pp.~2825--2830, 2011.
+
 \bibitem{noauthor_sklearnlinear_modelsgdclassifier_nodate}
 ``sklearn.linear\_model.{SGDClassifier}.''
 
@@ -116,6 +123,9 @@ A.~E. Roth, {\em The {Shapley} value: essays in honor of {Lloyd} {S}.
 \bibitem{william_wolberg_breast_1993}
 O.~M. William~Wolberg, ``Breast {Cancer} {Wisconsin} ({Diagnostic}),'' 1993.
 
+\bibitem{team_pandas-devpandas_2020}
+T.~p.~d. team, ``pandas-dev/pandas: {Pandas},'' Feb. 2020.
+
 \bibitem{sidey-gibbons_machine_2019}
 J.~A.~M. Sidey-Gibbons and C.~J. Sidey-Gibbons, ``Machine learning in medicine:
   a practical introduction,'' {\em BMC Medical Research Methodology}, vol.~19,
@@ -148,5 +158,21 @@ R.~Massafra, A.~Fanizzi, N.~Amoroso, S.~Bove, M.~C. Comes, D.~Pomarico,
   A.~Zito, A.~V. Paradiso, R.~Bellotti, and V.~Lorusso, ``Analyzing breast
   cancer invasive disease event classification through explainable artificial
   intelligence,'' {\em Frontiers in Medicine}, vol.~10, 2023.
+
+\bibitem{scikit_learn_sklearndatasetsload_breast_cancer_nodate}
+{Scikit Learn}, ``sklearn.datasets.load\_breast\_cancer.''
+
+\bibitem{wang_machine_2020}
+A.~Y.-T. Wang, R.~J. Murdock, S.~K. Kauwe, A.~O. Oliynyk, A.~Gurlo, J.~Brgoch,
+  K.~A. Persson, and T.~D. Sparks, ``Machine {Learning} for {Materials}
+  {Scientists}: {An} {Introductory} {Guide} toward {Best} {Practices},'' {\em
+  Chemistry of Materials}, vol.~32, pp.~4954--4965, June 2020.
+\newblock Publisher: American Chemical Society.
+
+\bibitem{racz_effect_2021}
+A.~Rácz, D.~Bajusz, and K.~Héberger, ``Effect of {Dataset} {Size} and
+  {Train}/{Test} {Split} {Ratios} in {QSAR}/{QSPR} {Multiclass}
+  {Classification},'' {\em Molecules}, vol.~26, p.~1111, Jan. 2021.
+\newblock Number: 4 Publisher: Multidisciplinary Digital Publishing Institute.
 
 \end{thebibliography}

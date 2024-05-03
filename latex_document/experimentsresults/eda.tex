@@ -1,0 +1,89 @@
+After loading our dataset \cite{william_wolberg_breast_1993} to our \textit{Jupyter Notebook} importing it from the \textit{Scikit-learn} library \cite{scikit_learn_sklearndatasetsload_breast_cancer_nodate}, we convert it into a \textit{Pandas}\cite{team_pandas-devpandas_2020} DataFrame because it allow us to manipulate the data more easily.
+
+Before proceeding to look at the data, we need to perform a testing and training split, this is to avoid data leakage, which is when the model learns from the testing data causing it to overfit instead of generalizing \cite{wang_machine_2020}. To perform the split we will use the \textit{train\_test\_split} method from the \textit{Scikit-learn} library \cite{pedregosa_scikit-learn_2011}. The percentage of the data that will be used for testing will be 30\% and 70\% for training, this is because 80-20 and 70-30 are the most common splits used \cite{racz_effect_2021} and since in this case we opted for the latter in order to have more data to be able to test the classifiers and know if they generalize well.
+
+Now that we have our data loaded and split in a DataFrame, we can begin the \ac{eda}. We will divide the process into two parts, the first part will be the descriptive statistics and the second part will be the data visualization.
+
+\subsection{Descriptive Statistics}
+
+The first step in the \ac{eda} is to look at the numerical description of the data, this will allow us to have a general idea of the data we are working with. To do this we will use the \textit{describe} method from the \textit{Pandas} library. From this quick statistical summary, we obtain the table available in Table \ref{TAB:FullDescriptiveStats}, which shows the count, mean, standard deviation, minimum, 25\%, 50\%, 75\%, and maximum values of each feature in the dataset, since the dataset has 30 features, we will only show the features that we will mention in the Table \ref{TAB:ShortStats}, we encourage the reader to look at the full table in the Table \ref{TAB:FullDescriptiveStats}.
+
+\begin{table}[short]{TAB:ShortStats}{Descriptive statistics of only some features of the dataset to fit the table in the page.}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{measure} & \textbf{worst area} & \textbf{mean area} & \textbf{\bfseries mean fractal dimension} \\
+        \hline\hline
+        \textbf{count}   & 398.0               & 398.0              & 398.0                                     \\
+        \hline
+        \textbf{mean}    & 876.2               & 655.9              & 0.1                                       \\
+        \hline
+        \textbf{std}     & 525.5               & 333.5              & 0.1                                       \\
+        \hline
+        \textbf{min}     & 185.2               & 143.5              & 0.0                                       \\
+        \hline
+        \textbf{25\%}    & 524.1               & 432.1              & 0.1                                       \\
+        \hline
+        \textbf{50\%}    & 688.1               & 557.4              & 0.1                                       \\
+        \hline
+        \textbf{75\%}    & 1063.5              & 782.7              & 0.1                                       \\
+        \hline
+        \textbf{max}     & 3216.0              & 2250.0             & 0.1                                       \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{itemize}
+    \item The median (50\%) is usually a bit smaller than the mean, which would mean that the data is lightly skewed, we will see this in the next section.
+    \item The difference between the 75\% and the max is more than double the number in some cases (worst area 75\% = 1063 and worst area max = 3216), which would mean that there are some outliers in the data, this will also be seen later.
+    \item The range in some values is pretty large, for example in the mean area we go from a min of 143.5 to a max of 2250.0, this means that we will have to scale the data in order to be able to use it in some classifiers.
+    \item The standard deviation is also quite large in some cases, for example, in the worst area, we have a standard deviation of 525.5, this points out that the data is spread out emphasizing the need to scale the data.
+    \item Lastly, some features such as mean fractal dimension have values that go from 0.050 to 0.097, and others like the worst area from 185 to 3216, this means that we will have to scale the data in order to be able to use it in some classifiers.
+\end{itemize}
+
+After looking at the description given by the \textit{describe} method in Table \ref{TAB:ShortStats}, we can see that the data is quite spread out and that we will need to scale it in order to be able to use it in some classifiers.
+
+The skewness of the data is also important to know since it will tell us if the data is symmetric or not, this is important because some classifiers assume that the data is normally distributed, and if it is not, the classifier will not work as well. We can see the skewness of the features in Table \ref{TAB:Skewness}.
+
+\begin{table}[Skewness]{TAB:Skewness}{Skewness of the features in the dataset.}
+    \begin{adjustbox}{width=1\linewidth}
+
+        \small
+        \begin{tabular}{|c|c|c|c|c|c|}
+
+            \hline
+            Mean Radius      & Mean Texture            & Mean Perimeter   & Mean Area              & Mean Smoothness & Mean Compactness        \\
+
+            0.84             & 0.71                    & 0.90             & 1.38                   & 0.51            & 1.22                    \\
+            \hline
+            Mean Concavity   & Mean Concave Points     & Mean Symmetry    & Mean Fractal Dimension & Radius Error    & Texture Error           \\
+            1.44             & 1.14                    & 0.84             & 1.41                   & 1.68            & 1.78                    \\
+            \hline
+            Perimeter Error  & Area Error              & Smoothness Error & Compactness Error      & Concavity Error & Concave Points Error    \\
+            1.85             & 2.15                    & 2.60             & 1.97                   & 5.59            & 1.66                    \\
+            \hline
+            Symmetry Error   & Fractal Dimension Error & Worst Radius     & Worst Texture          & Worst Perimeter & Worst Area              \\
+            2.32             & 4.12                    & 0.95             & 0.44                   & 0.97            & 1.49                    \\
+            \hline
+            Worst Smoothness & Worst Compactness       & Worst Concavity  & Worst Concave Points   & Worst Symmetry  & Worst Fractal Dimension \\
+            0.41             & 1.54                    & 1.24             & 0.46                   & 1.49            & 1.84                    \\
+            \hline
+            \hline
+
+            \multicolumn{6}{|c|}{Target} \\
+            \multicolumn{6}{|c|}{0.52} \\
+            \hline
+        \end{tabular}
+    \end{adjustbox}
+
+\end{table}
+
+The skewness' values can be interpreted as follows:
+\begin{itemize}
+    \item If the skewness is between -0.5 and 0.5, the data is fairly symmetrical.
+    \item If the skewness is above 1 or below -1, the data is highly skewed.
+    \item If the skewness is positive, the data is right-skewed.
+    \item If the skewness is negative, the data is left-skewed.
+\end{itemize}
+
+We will omit the target since it is not a feature but a class. From the values that we have obtained in Table \ref{TAB:Skewness} we can see that all of them are positive, which means that all the features are right-skewed. Some of them are highly skewed with values of up to 5.45 in the case of area error. This unevenness in the distribution is not only a product of the nature of the data, but also because of outliers which we will see in the data visualization section.
+

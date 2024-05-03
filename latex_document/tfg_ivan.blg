@@ -8,45 +8,45 @@ Warning--empty journal in wolpert_stacked_nodate
 Warning--empty year in wolpert_stacked_nodate
 Warning--empty journal in bergstra_random_nodate
 Warning--empty year in bergstra_random_nodate
-You've used 34 entries,
+You've used 39 entries,
             1876 wiz_defined-function locations,
-            639 strings with 8831 characters,
-and the built_in function-call counts, 7080 in all, are:
-= -- 647
-> -- 315
+            666 strings with 10020 characters,
+and the built_in function-call counts, 8584 in all, are:
+= -- 781
+> -- 410
 < -- 0
-+ -- 122
-- -- 88
-* -- 460
-:= -- 989
-add.period$ -- 31
-call.type$ -- 34
-change.case$ -- 33
++ -- 156
+- -- 117
+* -- 577
+:= -- 1211
+add.period$ -- 37
+call.type$ -- 39
+change.case$ -- 38
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 335
-empty$ -- 716
-format.name$ -- 88
-if$ -- 1727
+cite$ -- 43
+duplicate$ -- 396
+empty$ -- 836
+format.name$ -- 117
+if$ -- 2080
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 18
-newline$ -- 110
-num.names$ -- 35
-pop$ -- 156
+int.to.str$ -- 39
+missing$ -- 21
+newline$ -- 127
+num.names$ -- 40
+pop$ -- 171
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 313
+skip$ -- 374
 stack$ -- 0
-substring$ -- 277
-swap$ -- 133
+substring$ -- 365
+swap$ -- 164
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 60
-width$ -- 36
-write$ -- 280
+while$ -- 72
+width$ -- 41
+write$ -- 327
 (There were 5 warnings)

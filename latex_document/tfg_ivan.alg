@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 18.04.2024  11:18:06
-;; Indexstyle: "/tmp/sGWhybYuu_", Rawindex: "/tmp/qwG9EcOsmu", Output: "tfg_ivan.acr"
+;; at 03.05.2024  15:47:50
+;; Indexstyle: "/tmp/2zYwkPtSjc", Rawindex: "/tmp/pELkLkWuSa", Output: "tfg_ivan.acr"
 
 
 Building indexentry-tree:
