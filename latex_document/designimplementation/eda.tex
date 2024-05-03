@@ -1,6 +1,8 @@
-As it has been previously mentioned the dataset used in this project is the Breast Cancer Wisconsin dataset \cite{william_wolberg_breast_1993}. This dataset is composed of 569 samples of breast masses obtained by \ac{fnab}, then these samples were parametrized into ten different features, meaning that now we will work with numbers instead of images. Then, each of the ten features is divided into three features: the mean, standard error, and the average of the three worst values.
+As it has been previously mentioned the dataset used in this project is the Breast Cancer Wisconsin dataset \cite{william_wolberg_breast_1993}. This dataset is composed of 569 samples of breast masses obtained by \ac{fnab}, then these samples were parametrized into ten different features, meaning that now we will work with numbers instead of images. Then, each of the ten features is divided into three new features: the mean, standard error, and the average of the three worst values, ending up with a total of 30 features. A graphical representation of how the different features are divided is shown in Figure \ref{FIG:Features}.
 
-\ab{I am not sure I understand how you divide 10 features in 3 features? perhaps 3 groups? clusters?}
+\begin{figure}[Features]{FIG:Features}{Features of the Breast Cancer Wisconsin dataset.}
+    \image{14cm}{}{features_explanation.png}
+\end{figure}
 
 Before using these values in the classifier we first need to understand the dataset, this is done using \ac{eda} techniques. This involves, first, obtaining a general understanding of the dataset, then visualizing the dataset, and finally understanding the relationships between the features. All of this is done only using the training set to avoid data leakage.
 

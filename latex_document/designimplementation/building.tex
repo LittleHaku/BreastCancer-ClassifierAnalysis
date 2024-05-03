@@ -30,18 +30,10 @@ to choose the base classifier to use; for these cases, the best base classifiers
 To decide if a classifier is better than another, we must use some kind of metric. In Section \ref{SEC:EVALUATION} we explained the metrics that are most commonly used to evaluate the performance of a classifier. Now we have to choose the appropriate metrics for this problem; the most important thing for this problem is to minimize the number of false negatives, since a false negative means that a patient with cancer was classified as healthy, and this could have fatal consequences. To minimize the number of false negatives, we will use the \textit{Recall}, but the problem of only taking into account the recall is that to maximize it, the model could classify all samples as positive; to avoid this we will also use the \textit{Precision} since this will penalize the model for classifying a sample as positive if it was not. To combine these two metrics we will use the \textit{F1 Score}, which is the harmonic mean of the precision and recall. We will also use the \textit{F2 Score}, which is the weighted harmonic mean of the precision and recall, this will give more importance to the recall since we want to minimize the number of false negatives \cite{rutecki_best_nodate}. So, the evaluation metrics sorted by the importance that we will use are:
 
 \begin{itemize}
-    \item \textbf{F1 Score}: \begin{equation}[EQ:F1SCORE]{F1 Score}
-        F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}
-    \end{equation}
-    \item \textbf{Recall}: \begin{equation}[EQ:RECALL]{Recall}
-        Recall = \frac{TP}{TP + FN}
-    \end{equation}
-    \item \textbf{F2 Score}: \begin{equation}[EQ:F2SCORE]{F2 Score}
-        F2 = 5 \times \frac{Precision \times Recall}{\frac{4}{Precision} + \frac{1}{Recall}}
-    \end{equation}
-    \item \textbf{Precision}: \begin{equation}[EQ:PRECISION]{Precision}
-        Precision = \frac{TP}{TP + FP}
-    \end{equation}
+    \item \textbf{F1 Score} (Equation \ref{EQ:F1SCORE})
+    \item \textbf{Recall} (Equation \ref{EQ:RECALL})
+    \item \textbf{F2 Score} (Equation \ref{EQ:F2SCORE})
+    \item \textbf{Precision} (Equation \ref{EQ:PRECISION})
 \end{itemize}
 
 \subsection{Optimization of Classifiers}

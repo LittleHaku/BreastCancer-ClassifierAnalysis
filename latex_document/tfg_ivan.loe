@@ -3,18 +3,21 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\hbox to\@tempdima {2.1\hfil } Balanced Accuracy\relax }{9}{equation.2.2.1}%
-\contentsline {table}{\hbox to\@tempdima {2.2\hfil } F Beta Score\relax }{10}{equation.2.2.2}%
-\contentsline {table}{\hbox to\@tempdima {2.3\hfil } Matthews Correlation Coefficient\relax }{10}{equation.2.2.3}%
-\contentsline {table}{\hbox to\@tempdima {2.4\hfil } Single Shapley Value\relax }{14}{equation.2.4.4}%
-\contentsline {table}{\hbox to\@tempdima {2.5\hfil } Shapley Value for the brand\relax }{14}{equation.2.4.5}%
-\contentsline {table}{\hbox to\@tempdima {2.6\hfil } Shapley Value\relax }{15}{equation.2.4.6}%
+\contentsline {table}{\hbox to\@tempdima {2.1\hfil } Accuracy\relax }{8}{equation.2.2.1}%
+\contentsline {table}{\hbox to\@tempdima {2.2\hfil } Recall\relax }{8}{equation.2.2.2}%
+\contentsline {table}{\hbox to\@tempdima {2.3\hfil } Precision\relax }{8}{equation.2.2.3}%
+\contentsline {table}{\hbox to\@tempdima {2.4\hfil } Specificity\relax }{8}{equation.2.2.4}%
+\contentsline {table}{\hbox to\@tempdima {2.5\hfil } Balanced Accuracy\relax }{9}{equation.2.2.5}%
+\contentsline {table}{\hbox to\@tempdima {2.6\hfil } F Beta Score\relax }{10}{equation.2.2.6}%
+\contentsline {table}{\hbox to\@tempdima {2.7\hfil } F1 Score\relax }{10}{equation.2.2.7}%
+\contentsline {table}{\hbox to\@tempdima {2.8\hfil } F2 Score\relax }{10}{equation.2.2.8}%
+\contentsline {table}{\hbox to\@tempdima {2.9\hfil } F0.5 Score\relax }{10}{equation.2.2.9}%
+\contentsline {table}{\hbox to\@tempdima {2.10\hfil } Matthews Correlation Coefficient\relax }{10}{equation.2.2.10}%
+\contentsline {table}{\hbox to\@tempdima {2.11\hfil } Single Shapley Value\relax }{14}{equation.2.4.11}%
+\contentsline {table}{\hbox to\@tempdima {2.12\hfil } Shapley Value for the brand\relax }{15}{equation.2.4.12}%
+\contentsline {table}{\hbox to\@tempdima {2.13\hfil } Shapley Value\relax }{15}{equation.2.4.13}%
 \addvspace {10\p@ }
-\contentsline {table}{\hbox to\@tempdima {3.1\hfil } Standardization\relax }{21}{equation.3.4.1}%
-\contentsline {table}{\hbox to\@tempdima {3.2\hfil } F1 Score\relax }{24}{equation.3.5.2}%
-\contentsline {table}{\hbox to\@tempdima {3.3\hfil } Recall\relax }{24}{equation.3.5.3}%
-\contentsline {table}{\hbox to\@tempdima {3.4\hfil } F2 Score\relax }{24}{equation.3.5.4}%
-\contentsline {table}{\hbox to\@tempdima {3.5\hfil } Precision\relax }{24}{equation.3.5.5}%
+\contentsline {table}{\hbox to\@tempdima {3.1\hfil } Standardization\relax }{22}{equation.3.4.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
