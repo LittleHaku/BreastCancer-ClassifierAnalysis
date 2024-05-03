@@ -1,5 +1,7 @@
 \newacronym{shap}{SHAP}{SHapley Additive exPlanations}
 
+\ab{right now, this is the only subsection in 2.4. This should be avoided, so either you create a section without number (I think a 'paragraph' instead of a subsection would work) or you think if any other subsection could be added under 2.4}
+
 \ac{shap} \cite{lundberg_unified_2017} is a model-agnostic approach to \ac{xai}, that is, it can be used with any model since it only uses the input and output. In short, how \ac{shap} works is that it uses the Shapley values from cooperative game theory to explain the output of any machine learning model, a concept named after Lloyd Shapley who introduced the idea that got him the Nobel Prize in Economic Sciences in 2012 \cite{roth_shapley_1988}.
 
 The Shapley value is a concept from cooperative game theory. It is a way to fairly distribute the loot obtained by a coalition of players. The difference is that in \ac{shap} instead of players we have features and instead of loot, we have the predicted output as a probability. The Shapley value is the average contribution of a feature to the prediction, and it is calculated by averaging the marginal contributions of a feature to the prediction over all possible orderings of the features. The marginal contribution of a feature to the prediction is the difference between the prediction with the feature and the prediction without the feature. 
