@@ -132,6 +132,16 @@ J.~A.~M. Sidey-Gibbons and C.~J. Sidey-Gibbons, ``Machine learning in medicine:
   pp.~1--18, Dec. 2019.
 \newblock Number: 1 Publisher: BioMed Central.
 
+\bibitem{hunter_matplotlib_2007}
+J.~D. Hunter, ``Matplotlib: {A} {2D} graphics environment,'' {\em Computing in
+  Science \& Engineering}, vol.~9, no.~3, pp.~90--95, 2007.
+\newblock Publisher: IEEE COMPUTER SOC.
+
+\bibitem{waskom_seaborn_2021}
+M.~L. Waskom, ``seaborn: statistical data visualization,'' {\em Journal of Open
+  Source Software}, vol.~6, no.~60, p.~3021, 2021.
+\newblock Publisher: The Open Journal.
+
 \bibitem{dinc_evaluation_2014}
 I.~Dinç, M.~Sigdel, S.~Dinç, M.~S. Sigdel, M.~L. Pusey, and R.~S. Aygün,
   ``Evaluation of {Normalization} and {PCA} on the {Performance} of
@@ -174,5 +184,15 @@ A.~Rácz, D.~Bajusz, and K.~Héberger, ``Effect of {Dataset} {Size} and
   {Train}/{Test} {Split} {Ratios} in {QSAR}/{QSPR} {Multiclass}
   {Classification},'' {\em Molecules}, vol.~26, p.~1111, Jan. 2021.
 \newblock Number: 4 Publisher: Multidisciplinary Digital Publishing Institute.
+
+\bibitem{he_learning_2009}
+H.~He and E.~A. Garcia, ``Learning from {Imbalanced} {Data},'' {\em IEEE
+  Transactions on Knowledge and Data Engineering}, vol.~21, no.~9,
+  pp.~1263--1284, 2009.
+
+\bibitem{belsley_regression_2005}
+D.~A. Belsley, E.~Kuh, and R.~E. Welsch, {\em Regression diagnostics:
+  {Identifying} influential data and sources of collinearity}.
+\newblock John Wiley \& Sons, 2005.
 
 \end{thebibliography}
