@@ -5,10 +5,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {lstlisting}{\numberline {3.1}Building the pipeline}{22}{lstlisting.3.1}%
-\contentsline {lstlisting}{\numberline {3.2}Obtaining probability and calculating the shap values}{26}{lstlisting.3.2}%
-\contentsline {lstlisting}{\numberline {3.3}Plotting SHAP}{27}{lstlisting.3.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {lstlisting}{\numberline {A.1}Obtaining probability and calculating the shap values}{47}{lstlisting.Alph1.1}%
+\contentsline {lstlisting}{\numberline {A.2}Plotting SHAP}{47}{lstlisting.Alph1.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

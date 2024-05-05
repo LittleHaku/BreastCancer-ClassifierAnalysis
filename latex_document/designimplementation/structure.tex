@@ -20,7 +20,7 @@ From now on, only the training set will be used for the \acl{eda}, data preproce
 
 
 \begin{figure}[Fine Needle Aspiration Biopsy]{FIG:FNAB}{Fine Needle Aspiration Biopsy \cite{sidey-gibbons_machine_2019}.}
-    \image{10cm}{}{fnab_1.png}
+    \image{7cm}{}{fnab_1.png}
 \end{figure}
 
 2. \textbf{Classifiers module}: This module is responsible for the \ac{eda}, data preprocessing, and building and optimizing the classifiers. The \ac{eda} is carried out using \textit{Matplotlib} \cite{hunter_matplotlib_2007} and \textit{Seaborn} \cite{waskom_seaborn_2021} to obtain descriptive and visual statistics of the dataset. The data preprocessing is carried out using \textit{Scikit-learn} to scale and normalize the data and to apply \ac{pca}, this is made using pipelines that facilitate the process of building and optimizing the classifiers and their reproducibility. The building and optimization of the classifiers are carried out using \textit{Scikit-learn} using the training set to build and optimize the classifiers. Once the classifiers are built and optimized, they are evaluated using the test set.

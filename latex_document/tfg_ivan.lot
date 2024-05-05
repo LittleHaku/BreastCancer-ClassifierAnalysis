@@ -7,12 +7,14 @@
 \contentsline {table}{\numberline {2.4}{\ignorespaces Shapley Values}}{15}{table.caption.36}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Short Descriptive Statistics}}{30}{table.caption.50}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Skewness of the features in the dataset}}{31}{table.caption.51}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Base Classifiers Comparison}}{35}{table.caption.57}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Ensemble Classifiers Comparison}}{36}{table.caption.58}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Five Best Classifiers Against Training Set}}{37}{table.caption.59}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Five Best Classifiers Against Test Set}}{37}{table.caption.60}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Short Descriptive Statistics}}{28}{table.caption.48}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Skewness of the features in the dataset}}{29}{table.caption.49}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Base Classifiers Comparison}}{33}{table.caption.55}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Ensemble Classifiers Comparison}}{34}{table.caption.56}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Five Best Classifiers Against Training Set}}{35}{table.caption.57}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Five Best Classifiers Against Test Set}}{35}{table.caption.58}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Complete Descriptive Statistics}}{50}{table.caption.65}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Complete Descriptive Statistics}}{52}{table.caption.65}%

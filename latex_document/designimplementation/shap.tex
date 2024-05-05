@@ -6,7 +6,6 @@ We will use \ac{shap} to have a global understanding of the importance of the fe
 
 To be able to calculate the \ac{shap} values, we need to create an \textit{Explainer} object, this object is created with the classifier as a parameter, but in our case, we are not using just the classifier but pipelines, this means, that we will have to find a way to obtain the predicted probability of the pipeline. To do this, we will use the \textit{predict\_proba} method of the pipeline, this method will return the predicted probability of the sample being malignant no matter which classifier is used, with this, we will be able to create the \textit{Explainer} object and calculate the \ac{shap} values, all this process is shown in the code snippet \ref{PY:SHAP}.
 
-\PythonCode[PY:SHAP]{Obtaining probability and calculating the shap values}{Obtaining the predicted probability of the pipeline and calculating the \ac{shap} values}{explainer.py}{1}{12}{1}
 
 After we have the \ac{shap} values, we will be able to use them to understand the importance of the features for the classifiers by plotting a graph with the \ac{shap} values of all the samples and also one for each single feature which will show the behavior of that feature, meaning that we will be able to see if the higher the value of the feature the higher the probability of the sample being malignant or benign. The plots, which will be done in Chapter \ref{SEC:RESULTS} are: cases where the classifier was sure the sample was benign, cases where it was sure it was benign, the closest to the decision boundary, and all the misclassified ones.
 
@@ -17,5 +16,3 @@ After we have the \ac{shap} values, we will be able to use them to understand th
 In the code snippet \ref{PY:SHAP_PLOTS} we can see how to code the global feature importance, the behavior of a single feature, and the local explanation of a prediction for a certain classifier, this will be done for all the classifiers, features, and the aforementioned samples.
 
 
-
-\PythonCode[PY:SHAP_PLOTS]{Plotting SHAP}{Plotting the SHAP global features, single feature, and local explanation}{shap_plots.py}{1}{18}{1}
