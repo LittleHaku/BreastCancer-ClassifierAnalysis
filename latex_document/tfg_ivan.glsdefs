@@ -1,31 +1,3 @@
-\glsdefs@newdocentry{fnab}%
-{%
-name={FNAB},%
-sort={FNAB},%
-type={acronym},%
-first={Fine Needle Aspiration Biopsy\glsspace (FNAB)},%
-firstplural={Fine Needle Aspiration Biopsy\acrpluralsuffix \glsspace (FNAB\acrpluralsuffix )},%
-text={FNAB},%
-plural={FNAB\acrpluralsuffix },%
-description={Fine Needle Aspiration Biopsy},%
-descriptionplural={Fine Needle Aspiration Biopsy\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={Fine Needle Aspiration Biopsy},%
-longplural={Fine Needle Aspiration Biopsys},%
-short={FNAB},%
-shortplural={FNABs},%
-counter={page},%
-parent={},%
-%
-}%
-
 \glsdefs@newdocentry{xai}%
 {%
 name={XAI},%
@@ -49,6 +21,34 @@ long={Explainable Artificial Intelligence},%
 longplural={Explainable Artificial Intelligences},%
 short={XAI},%
 shortplural={XAIs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{fnab}%
+{%
+name={FNAB},%
+sort={FNAB},%
+type={acronym},%
+first={Fine Needle Aspiration Biopsy\glsspace (FNAB)},%
+firstplural={Fine Needle Aspiration Biopsy\acrpluralsuffix \glsspace (FNAB\acrpluralsuffix )},%
+text={FNAB},%
+plural={FNAB\acrpluralsuffix },%
+description={Fine Needle Aspiration Biopsy},%
+descriptionplural={Fine Needle Aspiration Biopsy\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Fine Needle Aspiration Biopsy},%
+longplural={Fine Needle Aspiration Biopsys},%
+short={FNAB},%
+shortplural={FNABs},%
 counter={page},%
 parent={},%
 %
