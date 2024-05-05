@@ -67,7 +67,9 @@
 \glsXpageXglsnumberformat{}{17}\delimN 
 \glsXpageXglsnumberformat{}{18}\delimN 
 \glsXpageXglsnumberformat{}{20}\delimN 
-\glsXpageXglsnumberformat{}{21}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{21}\delimN 
+\glsXpageXglsnumberformat{}{39}\delimN 
+\glsXpageXglsnumberformat{}{40}}}\relax\glsresetentrylist
 \glossentry{fp}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{8}\delimR 
 \glsXpageXglsnumberformat{}{11}}}\glsgroupskip
@@ -132,7 +134,7 @@
 \glsXpageXglsnumberformat{}{25}\delimR 
 \glsXpageXglsnumberformat{}{27}\delimN 
 \glsXpageXglsnumberformat{}{35}\delimR 
-\glsXpageXglsnumberformat{}{38}\delimN 
+\glsXpageXglsnumberformat{}{40}\delimN 
 \glsXpageXglsnumberformat{}{43}}}\relax\glsresetentrylist
 \glossentry{svm}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{4}\delimN 
@@ -156,5 +158,6 @@
 \glsXpageXglsnumberformat{}{12}\delimN 
 \glsXpageXglsnumberformat{}{15}\delimR 
 \glsXpageXglsnumberformat{}{18}\delimN 
-\glsXpageXglsnumberformat{}{25}}}%
+\glsXpageXglsnumberformat{}{25}\delimN 
+\glsXpageXglsnumberformat{}{40}}}%
 \end{theglossary}\glossarypostamble
