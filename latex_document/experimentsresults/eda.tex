@@ -12,6 +12,7 @@ Now that we have our data loaded and split in a DataFrame, we can begin the \ac{
 The first step in the \ac{eda} is to look at the numerical description of the data, this will allow us to have a general idea of the data we are working with. To do this we will use the \textit{describe} method from the \textit{Pandas} library. From this quick statistical summary, we obtain the table available in Table \ref{TAB:FullDescriptiveStats}, which shows the count, mean, standard deviation, minimum, 25\%, 50\%, 75\%, and maximum values of each feature in the dataset, since the dataset has 30 features, we will only show the features included in the Table \ref{TAB:ShortStats}; we encourage the reader to look at the full table in the Table \ref{TAB:FullDescriptiveStats}.
 
 \begin{table}[Short Descriptive Statistics]{TAB:ShortStats}{Descriptive statistics of only some features of the dataset to fit the table on the page.}
+    \small
     \begin{tabular}{|c|c|c|c|}
         \hline
         \textbf{measure} & \textbf{worst area} & \textbf{mean area} & \textbf{\bfseries mean fractal dimension} \\
@@ -104,19 +105,11 @@ We can see the distribution of the classes in Figure \ref{FIG:ClassDistribution}
 
 The correlation matrix is the next step in the data visualization, this will allow us to see the relationships between the features, this is important because some classifiers assume that the features are independent, and if they are not, the classifier will not work as well. When looking at the correlation matrix we have to understand that values can range from -1 to 1, where -1 means that the features are negatively correlated, 0 means that the features are not correlated, and 1 means that the features are positively correlated. It is important to study the correlation matrix because if the features are highly correlated it can lead to multicollinearity, which can make the model not work as well \cite{belsley_regression_2005}.
 
-\begin{figure}[Correlation Matrix]{FIG:CorrelationMatrix}{Correlation matrix of the features in the dataset.}
-    \image{14cm}{}{correlation_matrix.png}
-    % please, play with this number and try to expand it horizontally as much as possible, otherwise it is difficult to read
-\end{figure}
+
 
 In Figure \ref{FIG:CorrelationMatrix} we can see the correlation matrix of the features in the dataset, where we can see that some features are highly correlated with each other. This is expected since some of the features are mathematically related to each other, for example, the area is related to the radius and the perimeter. There is also a tendency for features that are already correlated in their mean version of the feature to be correlated in their error and worst version of the feature, e.g., the mean concavity is correlated with the mean compactness (0.88), then the error concavity is correlated with the error compactness (0.79) and the worst concavity is correlated with the worst compactness (0.88).
 
-Furthermore, to understand if the data is separable, we plotted the pair plots of the features. For the sake of space, since we have 30 features we will only show the pair plots of the mean features.
-
-\begin{figure}[Pair Plot of the Mean Features]{FIG:PairPlotMean}{Pair plot of the mean features in the dataset.}
-
-    \image{14cm}{}{pair_plot_mean.png}
-\end{figure}
+Furthermore, to understand if the data is separable, we plotted the pair plots of the features. We only plotted the pair plots of the mean features since the error and worst features are related to the mean features and a plot with ten features is more readable than a plot with thirty features.
 
 In Figure \ref{FIG:PairPlotMean} we can see the pair plot of the mean features in the dataset, where we can see that some features are more separable than others; for example, the mean area and the mean radius are more separable than the mean fractal dimension and the mean symmetry. Along with this, we can also plot the class distribution for each feature to see how separable the classes are. 
 

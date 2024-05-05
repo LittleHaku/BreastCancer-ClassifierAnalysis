@@ -36,6 +36,7 @@ Now that we have our building blocks for the metrics, we can describe the main f
 A confusion matrix is a table that is used to see the performance of the classifier in a more detailed way, as it shows the actual number of \ac{tp}, \ac{tn}, \ac{fp}, and \ac{fn}. An example is presented in Table \ref{TAB:ConfusionMatrix}. We can use this table to calculate all the metrics we have seen before. The table is split into four quadrants, the top left quadrant is the \ac{tp}, the top right quadrant is the \ac{fp}, the bottom left quadrant is the \ac{fn}, and the bottom right quadrant is the \ac{tn}, what we want is to have as many \ac{tp} and \ac{tn} (the diagonal) as possible since these are the ones that have been correctly classified.
 
 \begin{table}[Confusion Matrix]{TAB:ConfusionMatrix}{Confusion Matrix}
+    \small
     \begin{tabular}{cccc}
             \hline
             & \textbf{Predicted Positive} & \textbf{Predicted Negative} \\
@@ -56,6 +57,7 @@ The problem with the accuracy metric is that it is not a good metric when the cl
 With this new accuracy metric, we can see a better performance of the classifier when the classes are imbalanced. We can clearly see the difference between the accuracy and the balanced accuracy with a toy example: if we have a dataset with 100 instances, 97 of them are positive and 3 of them are negative, and we have a classifier that predicted 96 samples as positive and 4 as negative, this is expressed in the Table \ref{TAB:ConfusionMatrixExample}. Let us now calculate the accuracy and the balanced accuracy.
 
 \begin{table}[Confusion Matrix Example]{TAB:ConfusionMatrixExample}{Confusion Matrix Example}
+    \small
     \begin{tabular}{cccc}
             \hline
             & \textbf{Predicted Positive} & \textbf{Predicted Negative} \\

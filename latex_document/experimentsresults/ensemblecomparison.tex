@@ -5,6 +5,7 @@ After comparing the base classifiers, we proceeded to build and compare the ense
 On the other hand, the \acl{vc}, \acl{bc}, and \acl{sc} allowed the base classifiers to be chosen freely; so we selected the top five base classifiers from the previous comparison and rearranged them into a list with all the possible combinations, going from all the possible couples of base classifiers up to using all five of them in the ensemble, then we fed these combinations to the ensemble classifiers to determine which one was the best. Apart from the base classifiers, we also optimized the other hyperparameters of the ensemble classifiers. The results of the ensemble classifiers are shown in Table \ref{TAB:ENSEMBLECOMPARISON}.
 
 \begin{table}[Ensemble Classifiers Comparison]{TAB:ENSEMBLECOMPARISON}{Comparison of all the ensemble classifiers, showing their metrics sorted by the F1-Score, Recall, F2-Score, and Precision.}
+    \small
     \begin{tabular}{|c|c|c|c|c|}
         \hline
         \textbf{Model} & \textbf{F1 Score} & \textbf{Recall} & \textbf{F2 Score} & \textbf{Balanced Accuracy} \\

@@ -1,0 +1,40 @@
+The local analysis brings us closer to the decision-making process of the classifier and makes it go from a black box to a tool that shows us how it makes decisions.
+To see this, we used the waterfall plots that \ac{shap} provides, these plots show the contribution of each feature in order of importance, the higher the feature is in the plot, the more it contributed. When the arrow is red and goes to the right, it means that the feature increased the probability of the sample being malignant, and when the arrow is blue and goes to the left, it means that the feature decreased the probability of the sample being benign. The $f(x)$ at the top of the plot is the probability of the sample being malignant, and the $E[f(x)]$ at the bottom of the plot is the expectancy, which is the average of all the predictions of the model. It is less than 0.5 because there are more benign samples than malignant samples. 
+
+The decisions that the classifier made can be divided into four categories: the classifier was sure the sample was benign, the classifier was sure the sample was malignant, the classifier was close to the decision boundary, and the classifier misclassified the sample. In the figure \ref{FIG:WATERFALLS} we can see one waterfall plot for each of the first three categories. When the classifier was sure about the prediction the plot is very clear and all the arrows go to the same side, while when the classifier was close to the decision boundary the plot is more mixed and the arrows go to both sides.
+
+\begin{figure}[Waterfall Plots]{FIG:WATERFALLS}{Waterfall plots of the Logistic Regression classifier.}
+    %\begin{adjustbox}{width=1\textwidth,height=\textheight,keepaspectratio}
+    \subfigure[]{The classifier was sure the sample was benign}{
+        \image{7cm}{}{sure_benign.png}
+    }
+    \subfigure[]{The classifier was sure the sample was malignant}{
+        \image{7cm}{}{sure_malignant.png}
+    }
+    %\end{adjustbox}
+    \subfigure[]{The classifier was close to the decision boundary}{
+        \image{7cm}{}{decision_boundary.png}
+    }
+\end{figure}
+
+The misclassified samples' waterfall plots are shown in figure \ref{FIG:MISCLASSIFIED}. Both of them were classified as benign, but they were malignant. If we take a closer look at the first one we can see that the classifier got close with a $f(x) = 0.47$, and that the most important features were the worst symmetry and the symmetry error. Then we plotted the dependence plot of these two features in Figure \ref{FIG:DEPENDENCESYM}. In the left one, worst symmetry, we can see that our misclassified sample had a value of 0.577 and in the plot, we can see that it is the highest value. In the right one, symmetry error, we can see that our misclassified sample had a value of 0.056, which is also the highest value, we can also see that it has a lower \ac{shap} value than what the trend shows. With this information, we can see that the classifier failed because this sample was an outlier in the dataset, and the classifier was not able to generalize well.
+
+\begin{figure}[Waterfall Plot of Misclassified Sample]{FIG:MISCLASSIFIED}{Waterfall plot of the two samples that were misclassified by the Logistic Regression classifier.}
+    \begin{adjustbox}{width=1\textwidth,height=\textheight,keepaspectratio}
+    \subfigure[]{Misclassified sample 1}{
+        \image{7cm}{}{misclassified_1.png}
+    }
+    \subfigure[]{Misclassified sample 2}{
+        \image{7cm}{}{misclassified_2.png}
+    }
+    \end{adjustbox}
+\end{figure}
+
+\begin{figure}[Dependence Plots of the Worst Symmetry and the Symmetry Error]{FIG:DEPENDENCESYM}{Dependence plots of the worst symmetry and the symmetry error using the Logistic Regression classifier.}
+    \subfigure[]{Dependence plot of the worst symmetry}{
+        \image{7cm}{}{Logistic_Regression_symmetry_worst.png}
+    }
+    \subfigure[]{Dependence plot of the symmetry error}{
+        \image{7cm}{}{Logistic_Regression_symmetry_error.png}
+    }
+\end{figure}

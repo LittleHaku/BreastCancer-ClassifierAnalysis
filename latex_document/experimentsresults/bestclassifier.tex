@@ -1,6 +1,7 @@
 After computing the metrics for all the base and ensemble classifiers we can see from Table \ref{TAB:BASECOMPARISON} and Table \ref{TAB:ENSEMBLECOMPARISON} that the best five classifiers overall are \acl{lr}, \acl{mlp}, \acl{vc}, \acl{sc}, and \acl{bc}; it is important to note that the metrics obtained until now, as it was explained in Section \ref{SEC:CHOOSING}, were obtained using the training set with \acl{cv}. To determine which one is the best classifier, we measured the performance of these five classifiers using the test set. Being this the first time that we used the test set, we can be confident that the results are reliable and that there is no data leakage. 
 
 \begin{table}[Five Best Classifiers Against Training Set]{TAB:FIVEBESTTRAINING}{The five best classifiers measured against the training set, showing their metrics sorted by the F1-Score, Recall, F2-Score, and Precision.}
+    \small
     \begin{tabular}{|c|c|c|c|c|}
         \hline
         \textbf{Model} & \textbf{F1 Score} & \textbf{Recall} & \textbf{F2 Score} & \textbf{Balanced Accuracy} \\
@@ -15,6 +16,7 @@ After computing the metrics for all the base and ensemble classifiers we can see
 \end{table}
 
 \begin{table}[Five Best Classifiers Against Test Set]{TAB:FIVEBESTTEST}{The five best classifiers measures against the test set, showing their metrics sorted by the F1-Score, Recall, F2-Score, and Precision.}
+    \small
     \begin{tabular}{|c|c|c|c|c|}
         \hline
         \textbf{Model} & \textbf{F1 Score} & \textbf{Recall} & \textbf{F2 Score} & \textbf{Balanced Accuracy} \\
@@ -49,3 +51,5 @@ To better understand the performance of the models, we can see the confusion mat
 \end{figure}
 
 From the confusion matrices we can see that the only changes reside in the number of samples that were malignant and got classified as benign, which is exactly what we want to avoid, so we can see that the \ac{lr} model is the best-performing model with only 2 samples that were malignant and were classified as benign, followed by the \ac{bc} and \ac{mlp} models with 3 samples, and finally the \ac{vc} and \ac{sc} models with 4 samples.
+
+If the user wants to know more about the performance of the models, the results of the confusion matrices, and the metrics of all the models tested against the test set, they can go to the web application and see the results in a more interactive way (\href{https://breast-cancer-classification-web.onrender.com/}{https://breast-cancer-classification-web.onrender.com/})

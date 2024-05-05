@@ -31,6 +31,7 @@ Each edge also has a weight, the important thing to note is that the weights are
 To obtain the number of edges we can use basic combinatorics. First, the number of nodes in a row is given by the binomial coefficient, which is given by $F \choose f$, where $F$ is the number of features, and $f$ is the number of features in the subset just like in the power set. Then the number of edges is given by $f \cdot {F \choose f}$, that is, to get the weights of the nodes that connect the base model ($f=0$) to the models with one feature ($f=1$) we have to divide 1 by the number of edges, which is $1 \cdot {3 \choose 1} = 3$, and then we get the weights 1/3, 1/3, and 1/3. This is done for all the rows, and we obtain the weights shown in Table \ref{TAB:WEIGHTS}.
 
 \begin{table}[Weights for the example]{TAB:WEIGHTS}{Weights for the example}
+    \small
     \begin{tabular}{|c|c|c|c|}
         \hline
         $f$ & $F \choose f$ & $f \cdot {F \choose f}$ & Weights \\
@@ -58,6 +59,7 @@ Now that we have the weights, we can do the weighted sum of the marginal contrib
 
 With this, we can see that the brand contributes -17801 euros to the price of the car, and we can do the same for the other features, we obtain the Shapley values for all the features and see how much each feature contributes to the price of the car; we summarize the results in Table \ref{TAB:SHAPLEY_VALUES}. If we add all the Shapley values we obtain the difference between the base prediction with no features, a lot of times represented as the mean of the target $E(y)$, and the prediction with all the features, which is the prediction of the model, $f(x)$.
 \begin{table}[Shapley Values]{TAB:SHAPLEY_VALUES}{Shapley values for the example}
+    \small
     \begin{tabular}{|c|c|}
         \hline
         Feature & Shapley Value \\

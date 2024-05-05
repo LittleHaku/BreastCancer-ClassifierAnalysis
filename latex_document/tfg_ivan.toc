@@ -22,7 +22,7 @@
 \contentsline {subsubsection}{Bagging Classifier}{7}{section*.24}%
 \contentsline {subsubsection}{Stacking Classifier}{7}{section*.26}%
 \contentsline {section}{\numberline {2.2}Evaluation of Classifiers}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Classifier Optimization}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Classifier Optimization}{10}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Explainable AI}{12}{section.2.4}%
 \contentsline {paragraph}{SHAP}{12}{section*.32}%
 \contentsline {section}{\numberline {2.5}Web Application Development}{15}{section.2.5}%
@@ -53,19 +53,19 @@
 \contentsline {section}{\numberline {4.1}Exploratory Data Analysis}{27}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Descriptive Statistics}{27}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Data Visualization}{29}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Classifier Comparison}{32}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Base Classifiers Comparison}{33}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Ensemble Classifiers Comparison}{33}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Choosing the Best Classifier}{34}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}SHAP Analysis}{36}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Global Interpretability}{36}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Local Interpretability}{36}{subsection.4.3.2}%
-\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusions}{37}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{37}{section.5.2}%
-\contentsline {chapter}{Bibliography}{41}{chapter*.60}%
-\contentsline {chapter}{Acronyms}{43}{section*.61}%
-\contentsline {part}{Appendices}{45}{part.1}%
-\contentsline {chapter}{\numberline {A}Code Snippets}{47}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Web Application}{49}{appendix.Alph2}%
-\contentsline {chapter}{\numberline {C}Exploratory Data Analysis}{51}{appendix.Alph3}%
+\contentsline {section}{\numberline {4.2}Classifier Comparison}{31}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Base Classifiers Comparison}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Ensemble Classifiers Comparison}{32}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Choosing the Best Classifier}{33}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}SHAP Analysis}{34}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Global Interpretability}{35}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Local Interpretability}{37}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{39}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusions}{39}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{39}{section.5.2}%
+\contentsline {chapter}{Bibliography}{43}{chapter*.63}%
+\contentsline {chapter}{Acronyms}{45}{section*.64}%
+\contentsline {part}{Appendices}{47}{part.1}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{49}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Web Application}{51}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Exploratory Data Analysis}{53}{appendix.Alph3}%

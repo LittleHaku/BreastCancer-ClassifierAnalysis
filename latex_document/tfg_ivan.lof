@@ -17,19 +17,33 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces PCA}}{23}{figure.caption.47}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Class Distribution}}{29}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Correlation Matrix}}{30}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Pair Plot of the Mean Features}}{31}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Class Distribution of the Radius}}{32}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Class Distribution of the Fractal Dimension}}{32}{figure.caption.54}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Confusion Matrix}}{36}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Class Distribution of the Radius}}{30}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Class Distribution of the Fractal Dimension}}{31}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Confusion Matrix}}{34}{figure.caption.57}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{34}{figure.caption.57}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{34}{figure.caption.57}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces lof}}{34}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Beeswarm Plot of Logistic Regression}}{35}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Dependence Plots}}{36}{figure.caption.59}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{36}{figure.caption.59}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{36}{figure.caption.59}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces lof}}{36}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Waterfall Plots}}{37}{figure.caption.60}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{37}{figure.caption.60}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{37}{figure.caption.60}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces lof}}{37}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Waterfall Plot of Misclassified Sample}}{38}{figure.caption.61}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{38}{figure.caption.61}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{38}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Dependence Plots of the Worst Symmetry and the Symmetry Error}}{38}{figure.caption.62}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{38}{figure.caption.62}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{38}{figure.caption.62}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Web Application Home Page}}{49}{figure.caption.63}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Web Application Comparison}}{50}{figure.caption.64}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Web Application Home Page}}{51}{figure.caption.66}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Web Application Comparison}}{52}{figure.caption.67}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces First half of the features' distribution}}{53}{figure.caption.66}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Second half of the features' distribution}}{54}{figure.caption.67}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Correlation Matrix}}{55}{figure.caption.69}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Pair Plot of the Mean Features}}{56}{figure.caption.70}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces First half of the features' distribution}}{57}{figure.caption.71}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Second half of the features' distribution}}{58}{figure.caption.72}%
