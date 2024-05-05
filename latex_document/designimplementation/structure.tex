@@ -10,7 +10,13 @@ Then in the classifiers module, we do the \ac{eda}, data preprocessing, and buil
     \image{}{}{design.png}
 \end{figure}
 
-1. \textbf{Dataset module}: This module is responsible for loading the dataset and splitting it into a 70\% training set and a 30\% test set. The dataset used in this project is the Breast Cancer Wisconsin dataset \cite{william_wolberg_breast_1993}, which contains the parameters of the cell nuclei of the sample obtained by a \ac{fnab} of breast masses, an example of a \ac{fnab} is shown in Figure \ref{FIG:FNAB}. The dataset is loaded using the \textit{Pandas} library \cite{team_pandas-devpandas_2020}. The dataset is then split into a 70\% training set and a 30\% test set using \textit{Scikit-learn}. From now on, only the training will be used for the \acl{eda}, data preprocessing, and building and optimizing the classifiers. The test set will \textit{only} be used to evaluate the classifiers. This ensures that we avoid data leakage. 
+1. \textbf{Dataset module}: This module is responsible for loading the dataset and splitting it into a training set and a test set. The dataset used in this project is the Breast Cancer Wisconsin dataset \cite{william_wolberg_breast_1993}, which contains the parameters of the cell nuclei of the sample obtained by a \ac{fnab} of breast masses, an example of a \ac{fnab} is shown in Figure \ref{FIG:FNAB}.
+Before proceeding to look at the data, we need to perform a testing and training split, this is to avoid data leakage, 
+which is when the model learns from the testing data causing it to overfit instead of generalize \cite{wang_machine_2020}. 
+To perform the split we will use the \textit{train\_test\_split} method from the \textit{Scikit-learn} library \cite{pedregosa_scikit-learn_2011}.
+The percentage of the data that will be used for testing will be 30\% and 70\% for training, this is because 80-20 and 70-30 are the most common splits used \cite{racz_effect_2021}, we opted for the latter to have a larger test set to evaluate if the model generalizes well.
+From now on, only the training set will be used for the \acl{eda}, data preprocessing, and building and optimizing the classifiers. The test set will \textit{only} be used to evaluate the classifiers. This ensures that we avoid data leakage.
+
 
 
 \begin{figure}[Fine Needle Aspiration Biopsy]{FIG:FNAB}{Fine Needle Aspiration Biopsy \cite{sidey-gibbons_machine_2019}.}

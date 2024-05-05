@@ -123,8 +123,18 @@ A.~E. Roth, {\em The {Shapley} value: essays in honor of {Lloyd} {S}.
 \bibitem{william_wolberg_breast_1993}
 O.~M. William~Wolberg, ``Breast {Cancer} {Wisconsin} ({Diagnostic}),'' 1993.
 
-\bibitem{team_pandas-devpandas_2020}
-T.~p.~d. team, ``pandas-dev/pandas: {Pandas},'' Feb. 2020.
+\bibitem{wang_machine_2020}
+A.~Y.-T. Wang, R.~J. Murdock, S.~K. Kauwe, A.~O. Oliynyk, A.~Gurlo, J.~Brgoch,
+  K.~A. Persson, and T.~D. Sparks, ``Machine {Learning} for {Materials}
+  {Scientists}: {An} {Introductory} {Guide} toward {Best} {Practices},'' {\em
+  Chemistry of Materials}, vol.~32, pp.~4954--4965, June 2020.
+\newblock Publisher: American Chemical Society.
+
+\bibitem{racz_effect_2021}
+A.~Rácz, D.~Bajusz, and K.~Héberger, ``Effect of {Dataset} {Size} and
+  {Train}/{Test} {Split} {Ratios} in {QSAR}/{QSPR} {Multiclass}
+  {Classification},'' {\em Molecules}, vol.~26, p.~1111, Jan. 2021.
+\newblock Number: 4 Publisher: Multidisciplinary Digital Publishing Institute.
 
 \bibitem{sidey-gibbons_machine_2019}
 J.~A.~M. Sidey-Gibbons and C.~J. Sidey-Gibbons, ``Machine learning in medicine:
@@ -172,18 +182,8 @@ R.~Massafra, A.~Fanizzi, N.~Amoroso, S.~Bove, M.~C. Comes, D.~Pomarico,
 \bibitem{scikit_learn_sklearndatasetsload_breast_cancer_nodate}
 {Scikit Learn}, ``sklearn.datasets.load\_breast\_cancer.''
 
-\bibitem{wang_machine_2020}
-A.~Y.-T. Wang, R.~J. Murdock, S.~K. Kauwe, A.~O. Oliynyk, A.~Gurlo, J.~Brgoch,
-  K.~A. Persson, and T.~D. Sparks, ``Machine {Learning} for {Materials}
-  {Scientists}: {An} {Introductory} {Guide} toward {Best} {Practices},'' {\em
-  Chemistry of Materials}, vol.~32, pp.~4954--4965, June 2020.
-\newblock Publisher: American Chemical Society.
-
-\bibitem{racz_effect_2021}
-A.~Rácz, D.~Bajusz, and K.~Héberger, ``Effect of {Dataset} {Size} and
-  {Train}/{Test} {Split} {Ratios} in {QSAR}/{QSPR} {Multiclass}
-  {Classification},'' {\em Molecules}, vol.~26, p.~1111, Jan. 2021.
-\newblock Number: 4 Publisher: Multidisciplinary Digital Publishing Institute.
+\bibitem{team_pandas-devpandas_2020}
+T.~p.~d. team, ``pandas-dev/pandas: {Pandas},'' Feb. 2020.
 
 \bibitem{he_learning_2009}
 H.~He and E.~A. Garcia, ``Learning from {Imbalanced} {Data},'' {\em IEEE

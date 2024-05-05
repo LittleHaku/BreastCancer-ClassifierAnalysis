@@ -1,13 +1,9 @@
 After loading our dataset \cite{william_wolberg_breast_1993} to our \textit{Jupyter Notebook} and importing it from the \textit{Scikit-learn} library \cite{scikit_learn_sklearndatasetsload_breast_cancer_nodate}, we convert it into a \textit{Pandas}\cite{team_pandas-devpandas_2020} DataFrame because it allow us to manipulate the data more easily.
 
 Before proceeding to look at the data, we need to perform a testing and training split, this is to avoid data leakage, 
-\ab{this was already explained before, check the pdf, although the citation was not included. Please, remove this sentence from here and include the cite in one of the first definitions of leakage in the other chapters}
-\ab{in general, you have to be careful and avoid repetitions. I understand you don't read the text everytime you continue writing, but people will read in a single session more or less, so these things will be obvious. I will try to pay attention to these things, but since I am also reading other reports, I may miss some things...}
 which is when the model learns from the testing data causing it to overfit instead of generalize \cite{wang_machine_2020}. 
-To perform the split we will use the \textit{train\_test\_split} method from the \textit{Scikit-learn} library \cite{pedregosa_scikit-learn_2011}. \ab{these technical details fit better in the implementation chapter. If this was not explained there, I would ignore it and simply say that we split the data according to these percentages}
-The percentage of the data that will be used for testing will be 30\% and 70\% for training, this is because 80-20 and 70-30 are the most common splits used \cite{racz_effect_2021} 
-and since in this case we opted for the latter in order to have more data to be able \ab{this previous sentence is too complex and confusing, please rephrase it}
-to test the classifiers and know if they generalize well.
+To perform the split we will use the \textit{train\_test\_split} method from the \textit{Scikit-learn} library \cite{pedregosa_scikit-learn_2011}.
+The percentage of the data that will be used for testing will be 30\% and 70\% for training, this is because 80-20 and 70-30 are the most common splits used \cite{racz_effect_2021}, we opted for the latter to have a larger test set to evaluate if the model generalizes well.
 
 Now that we have our data loaded and split in a DataFrame, we can begin the \ac{eda}. We will divide the process into two parts, the first part will be the descriptive statistics and the second part will be the data visualization.
 
@@ -113,9 +109,9 @@ The correlation matrix is the next step in the data visualization, this will all
     % please, play with this number and try to expand it horizontally as much as possible, otherwise it is difficult to read
 \end{figure}
 
-In Figure \ref{FIG:CorrelationMatrix} we can see the correlation matrix of the features in the dataset, where we can see that some features are highly correlated with each other. This was expected since some of the features are mathematically related to each other, for example, the area is related to the radius and the perimeter. There is also a tendency for features that are related in the mean to be related in the worst. \ab{these sentences sound strange: 'related in the mean... in the worst', it is better if you could complement the sentence somehow, perhaps adding 'worst measurement' or 'its worst feature value'}
+In Figure \ref{FIG:CorrelationMatrix} we can see the correlation matrix of the features in the dataset, where we can see that some features are highly correlated with each other. This is expected since some of the features are mathematically related to each other, for example, the area is related to the radius and the perimeter. There is also a tendency for features that are already correlated in their mean version of the feature to be correlated in their error and worst version of the feature, e.g., the mean concavity is correlated with the mean compactness (0.88), then the error concavity is correlated with the error compactness (0.79) and the worst concavity is correlated with the worst compactness (0.88).
 
-Furthermore, to understand if the data is separable, we will plot the pair plots of the features. For the sake of space, since we have 30 features we will only show the pair plots of the mean features.
+Furthermore, to understand if the data is separable, we plotted the pair plots of the features. For the sake of space, since we have 30 features we will only show the pair plots of the mean features.
 
 \begin{figure}[Pair Plot of the Mean Features]{FIG:PairPlotMean}{Pair plot of the mean features in the dataset.}
 
@@ -124,8 +120,7 @@ Furthermore, to understand if the data is separable, we will plot the pair plots
 
 In Figure \ref{FIG:PairPlotMean} we can see the pair plot of the mean features in the dataset, where we can see that some features are more separable than others; for example, the mean area and the mean radius are more separable than the mean fractal dimension and the mean symmetry. Along with this, we can also plot the class distribution for each feature to see how separable the classes are. 
 
-\ab{it is strange that sometimes you talk in future tense, when it is something you are 'doing' rightaway... I prefer to have everything in present, but the important thing here is to be consistent and try to use the same tense if possible.}
-To see how different the distributions are, we plot the radius in Figure \ref{FIG:ClassDistributionRadius} (since we saw that it was easily separable in the pair plot) and for the fractal dimension in Figure \ref{FIG:ClassDistributionFractal} (since we saw that it was not easily separable in the pair plot). To see the distribution of the other features, we encourage the reader to look at Figures \ref{FIG:FeaturesDistribution1} and \ref{FIG:FeaturesDistribution2} in the Appendix \ref{APP:EDA}.
+To see how different the distributions are, we plotted the radius in Figure \ref{FIG:ClassDistributionRadius} (since we already saw that it was easily separable in the pair plot) and for the fractal dimension in Figure \ref{FIG:ClassDistributionFractal} (we saw that it was not easily separable in the pair plot). To see the distribution of the other features, we encourage the reader to look at Figures \ref{FIG:FeaturesDistribution1} and \ref{FIG:FeaturesDistribution2} in the Appendix \ref{APP:EDA}.
 
 
 \begin{figure}[Class Distribution of the Radius]{FIG:ClassDistributionRadius}{Class distribution of the radius in the dataset, from left to right we have the mean, the error, and the worst.}
@@ -136,4 +131,4 @@ To see how different the distributions are, we plot the radius in Figure \ref{FI
     \image{10cm}{}{fractal_distribution.png}
 \end{figure}
 
-Now that we know how the data is distributed, we can proceed with the preprocessing. As it was explained in Section \ref{SEC:PREPROCESSING}, we will scale the data using the \textit{StandardScaler} from the \textit{Scikit-learn} library, and we will also perform a \ac{pca} to reduce the dimensionality and collinearity of the data retaining 95\% of the variance, which will result in 10 features made up from a linear combination of the original 30 features. Lastly, this process that we just mentioned will not be done to all the training data, but rather implemented in a pipeline so that for each fold in the cross-validation the data is scaled and transformed using only the training data and not the validation one, to avoid data leakage as already discussed.
+Once we knew the data was distributed, we proceeded with the preprocessing. As it was explained in Section \ref{SEC:PREPROCESSING}, we scaled the data using the \textit{StandardScaler} from the \textit{Scikit-learn} library, and we also performed a \ac{pca} to reduce the dimensionality and collinearity of the data retaining 95\% of the variance, which resulted in 10 features made up from a linear combination of the original 30 features. Lastly, this process that we just mentioned was not done to all the training data, but rather implemented in a pipeline so that for each fold in the cross-validation the data is scaled and transformed using only the training data and not the validation one, to avoid data leakage as already discussed.
