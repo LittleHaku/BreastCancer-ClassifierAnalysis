@@ -195,4 +195,21 @@ D.~A. Belsley, E.~Kuh, and R.~E. Welsch, {\em Regression diagnostics:
   {Identifying} influential data and sources of collinearity}.
 \newblock John Wiley \& Sons, 2005.
 
+\bibitem{banfield_comparison_2007}
+R.~E. Banfield, L.~O. Hall, K.~W. Bowyer, and W.~Kegelmeyer, ``A {Comparison}
+  of {Decision} {Tree} {Ensemble} {Creation} {Techniques},'' {\em IEEE
+  Transactions on Pattern Analysis and Machine Intelligence}, vol.~29, no.~1,
+  pp.~173--180, 2007.
+
+\bibitem{mannor_existence_2002}
+S.~Mannor and R.~Meir, ``On the existence of linear weak learners and
+  applications to boosting,'' {\em Machine Learning}, vol.~48, pp.~219--251,
+  2002.
+\newblock Publisher: Springer.
+
+\bibitem{dietterich_ensemble_2000}
+T.~G. Dietterich, ``Ensemble methods in machine learning,'' in {\em
+  International workshop on multiple classifier systems}, pp.~1--15, Springer,
+  2000.
+
 \end{thebibliography}

@@ -1,0 +1,23 @@
+The different models were profoundly optimized to obtain the best possible performance. Once all the models were trained, we compared them using the F1-Score, Recall, F2-Score, and Precision. The results are shown in Table \ref{TAB:BASECOMPARISON}.
+
+\begin{table}[Base Classifiers Comparison]{TAB:BASECOMPARISON}{Comparison of all the base classifiers, showing their metrics sorted by the F1-Score, Recall, F2-Score, and Precision.}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Model} & \textbf{F1 Score} & \textbf{Recall} & \textbf{F2 Score} & \textbf{Balanced Accuracy} \\
+        \hline
+        Logistic Regression           & 0.9865 & 0.9846 & 0.9853 & 0.9846 \\
+        Multi-Layer Perceptron        & 0.9839 & 0.9839 & 0.9838 & 0.9839 \\
+        Stochastic Gradient Descent   & 0.9839 & 0.9826 & 0.9831 & 0.9826 \\
+        Support Vector Machine        & 0.9839 & 0.9826 & 0.9831 & 0.9826 \\
+        K-Nearest Neighbors           & 0.9728 & 0.9691 & 0.9705 & 0.9691 \\
+        Linear Discriminant Analysis  & 0.9703 & 0.9686 & 0.9691 & 0.9686 \\
+        Quadratic Discriminant Analysis & 0.9627 & 0.9652 & 0.9641 & 0.9652 \\
+        Decision Tree                 & 0.9459 & 0.9424 & 0.9436 & 0.9424 \\
+        Gaussian Naive Bayes          & 0.9333 & 0.9364 & 0.9348 & 0.9364 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+We can see that the \acl{lr} model is the best-performing model, followed closely by the \acl{mlp}, \acl{sgd}, and \acl{svm} all of them with a F1-Score of 0.9839 but interestingly the \ac{mlp} has a higher recall, F2-Score, and balanced accuracy; the reason for this is that as shown in the Equation \ref{EQ:F1SCORE} the F1-Score is the harmonic mean of the precision and recall, but the F2-Score gives more weight to the recall, which is why the \ac{mlp} has a higher F2-Score than the \ac{sgd} and \ac{svm}.
+
+On the lower end of the table, we have the \ac{gnb} and the \ac{dt} models, with an F1-Score of 0.9333 and 0.9459, respectively. Although the gap between these and the best-performing models is a significant amount of ~0.05, the most important thing is that we managed to optimize the models and we will be able to use them to build ensemble models, especially the \ac{dt} model which is a model that is heavily used in ensemble models \cite{banfield_comparison_2007}.

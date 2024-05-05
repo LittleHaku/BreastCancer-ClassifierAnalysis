@@ -43,3 +43,7 @@ To maximize these metrics in the classifiers, we have to optimize the hyperparam
 These searches 
 used
 a 5-fold \ac{cv} (explained in Section \ref{SEC:OPTIMIZATION}) using the \textit{F1 Score} as the metric to optimize. All the \textit{RandomizedSearchCV} and \textit{GridSearchCV} were done using the same random seed, this means that the split of the dataset was the same for all the classifiers, this ends up in a more reliable result and also allows the reproducibility of the results. This process was done to avoid overfitting and to have a more reliable result, of course, as before, this process was only done in the training set, to avoid data leakage.
+
+\subsection{Choosing the Best Classifier\label{SEC:CHOOSING}}
+
+The previous comparisons were done using the training set with \acl{cv}, but to choose the best classifier, we used the test set. This was the first time that used the test set since the beginning of the project, this was done to avoid data leakage and to have a more reliable result. To select the best one we chose the five classifiers that obtained the best metrics in the training set, and then we used the test set to determine which one was the best. The metrics used to compare the classifiers were the same as the ones used in the training set. We only used the five best classifiers because the other classifiers did not perform as well as these five and we did not want to waste computational resources.

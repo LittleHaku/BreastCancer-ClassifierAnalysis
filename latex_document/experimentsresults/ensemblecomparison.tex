@@ -1,0 +1,23 @@
+After comparing the base classifiers, we proceeded to build and compare the ensemble classifiers.
+
+\acl{gb}, \acl{ab} and \acl{rf} only allowed us to work with \acl{dt} as the base classifier; we did not use the hyperparameters from the previous \ac{dt} model because the power of these models lies in the ensemble of weak learners \cite{mannor_existence_2002}, and thus we optimized the hyperparameters from scratch creating a new search space.
+
+On the other hand, the \acl{vc}, \acl{bc}, and \acl{sc} allowed the base classifiers to be chosen freely; so we selected the top five base classifiers from the previous comparison and rearranged them into a list with all the possible combinations, going from all the possible couples of base classifiers up to using all five of them in the ensemble, then we fed these combinations to the ensemble classifiers to determine which one was the best. Apart from the base classifiers, we also optimized the other hyperparameters of the ensemble classifiers. The results of the ensemble classifiers are shown in Table \ref{TAB:ENSEMBLECOMPARISON}.
+
+\begin{table}[Ensemble Classifiers Comparison]{TAB:ENSEMBLECOMPARISON}{Comparison of all the ensemble classifiers, showing their metrics sorted by the F1-Score, Recall, F2-Score, and Precision.}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Model} & \textbf{F1 Score} & \textbf{Recall} & \textbf{F2 Score} & \textbf{Balanced Accuracy} \\
+        \hline
+        Voting Classifier (LR, MLP)        & 0.9892 & 0.9867 & 0.9876 & 0.9867 \\
+        Stacking Classifier (LR, MLP)      & 0.9892 & 0.9867 & 0.9876 & 0.9867 \\
+        Bagging Classifier (MLP)           & 0.9866 & 0.9860 & 0.9861 & 0.9860 \\
+        Gradient Boosting (DT)             & 0.9758 & 0.9752 & 0.9754 & 0.9752 \\
+        AdaBoost (DT)                      & 0.9729 & 0.9691 & 0.9705 & 0.9691 \\
+        Random Forest (DT)                 & 0.9594 & 0.9577 & 0.9583 & 0.9577 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+We can see that the models that allowed us to choose the base classifiers ended up using the \ac{lr} and/or \ac{mlp} models, which were the best-performing base classifiers, and as a result, they also ended up being the best-performing ensemble classifiers. The \ac{vc} and \ac{sc} models ended up with the same metrics, this might be caused because both of them are using the same base classifiers, so the only difference between them is the way they aggregate the predictions, the \ac{vc} uses a majority vote, while the \ac{sc} uses a meta-classifier to make the final prediction (see Section \ref{SEC:ENSEMBLE} for more information).
+The models that used \ac{dt} as the base classifier ended up with a lower performance, but note that they are all outperforming the single \ac{dt} model from the previous comparison, which is the main advantage of ensemble models, they can outperform the base classifiers \cite{dietterich_ensemble_2000}.

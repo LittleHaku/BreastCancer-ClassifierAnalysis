@@ -3,12 +3,16 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces Confusion Matrix}}{9}{table.caption.28}%
 \contentsline {table}{\numberline {2.2}{\ignorespaces Confusion Matrix Example}}{9}{table.caption.29}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Weights}}{14}{table.caption.35}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Weights for the example}}{14}{table.caption.35}%
 \contentsline {table}{\numberline {2.4}{\ignorespaces Shapley Values}}{15}{table.caption.36}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces short}}{30}{table.caption.50}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Skewness}}{31}{table.caption.51}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Short Descriptive Statistics}}{30}{table.caption.50}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Skewness of the features in the dataset}}{31}{table.caption.51}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Base Classifiers Comparison}}{35}{table.caption.57}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Ensemble Classifiers Comparison}}{36}{table.caption.58}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Five Best Classifiers Against Training Set}}{37}{table.caption.59}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Five Best Classifiers Against Test Set}}{37}{table.caption.60}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Complete Descriptive Statistics}}{48}{table.caption.60}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Complete Descriptive Statistics}}{50}{table.caption.65}%

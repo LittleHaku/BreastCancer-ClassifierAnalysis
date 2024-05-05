@@ -15,15 +15,19 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Features}}{21}{figure.caption.45}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Standardization}}{22}{figure.caption.46}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces PCA}}{23}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Web Application}}{27}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Web Application}}{28}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Web Application Home Page}}{28}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Web Application Comparison}}{28}{figure.caption.49}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Class Distribution}}{31}{figure.caption.52}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Correlation Matrix}}{32}{figure.caption.53}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Pair Plot of the Mean Features}}{33}{figure.caption.54}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Class Distribution of the Radius}}{34}{figure.caption.55}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Class Distribution of the Fractal Dimension}}{34}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Confusion Matrix}}{38}{figure.caption.61}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{38}{figure.caption.61}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{38}{figure.caption.61}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces lof}}{38}{figure.caption.61}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces First half of the features' distribution}}{49}{figure.caption.61}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Second half of the features' distribution}}{50}{figure.caption.62}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces First half of the features' distribution}}{51}{figure.caption.66}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Second half of the features' distribution}}{52}{figure.caption.67}%

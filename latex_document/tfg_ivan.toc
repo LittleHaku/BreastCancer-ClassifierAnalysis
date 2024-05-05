@@ -46,6 +46,7 @@
 \contentsline {section}{\numberline {3.5}Building and Optimizing Classifiers}{23}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Comparison of Classifiers}{24}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Optimization of Classifiers}{24}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Choosing the Best Classifier}{25}{subsection.3.5.3}%
 \contentsline {section}{\numberline {3.6}SHAP Implementation}{25}{section.3.6}%
 \contentsline {section}{\numberline {3.7}Web Application Development}{26}{section.3.7}%
 \contentsline {chapter}{\numberline {4}Experiments and Results}{29}{chapter.4}%
@@ -53,16 +54,16 @@
 \contentsline {subsection}{\numberline {4.1.1}Descriptive Statistics}{29}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Data Visualization}{31}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}Classifier Comparison}{34}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Base Classifiers Comparison}{34}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Ensemble Classifiers Comparison}{34}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Choosing the Best Classifier}{34}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}SHAP Analysis}{34}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Global Interpretability}{34}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Local Interpretability}{35}{subsection.4.3.2}%
-\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusions}{37}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{37}{section.5.2}%
-\contentsline {chapter}{Bibliography}{41}{chapter*.57}%
-\contentsline {chapter}{Acronyms}{43}{section*.58}%
-\contentsline {part}{Appendices}{45}{part.1}%
-\contentsline {chapter}{\numberline {A}Exploratory Data Analysis}{47}{appendix.Alph1}%
+\contentsline {subsection}{\numberline {4.2.1}Base Classifiers Comparison}{35}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Ensemble Classifiers Comparison}{35}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Choosing the Best Classifier}{36}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}SHAP Analysis}{38}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Global Interpretability}{38}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Local Interpretability}{38}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{39}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusions}{39}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{39}{section.5.2}%
+\contentsline {chapter}{Bibliography}{43}{chapter*.62}%
+\contentsline {chapter}{Acronyms}{45}{section*.63}%
+\contentsline {part}{Appendices}{47}{part.1}%
+\contentsline {chapter}{\numberline {A}Exploratory Data Analysis}{49}{appendix.Alph1}%

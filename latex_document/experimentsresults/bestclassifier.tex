@@ -1,0 +1,51 @@
+After computing the metrics for all the base and ensemble classifiers we can see from Table \ref{TAB:BASECOMPARISON} and Table \ref{TAB:ENSEMBLECOMPARISON} that the best five classifiers overall are \acl{lr}, \acl{mlp}, \acl{vc}, \acl{sc}, and \acl{bc}; it is important to note that the metrics obtained until now, as it was explained in Section \ref{SEC:CHOOSING}, were obtained using the training set with \acl{cv}. To determine which one is the best classifier, we measured the performance of these five classifiers using the test set. Being this the first time that we used the test set, we can be confident that the results are reliable and that there is no data leakage. 
+
+\begin{table}[Five Best Classifiers Against Training Set]{TAB:FIVEBESTTRAINING}{The five best classifiers measured against the training set, showing their metrics sorted by the F1-Score, Recall, F2-Score, and Precision.}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Model} & \textbf{F1 Score} & \textbf{Recall} & \textbf{F2 Score} & \textbf{Balanced Accuracy} \\
+        \hline
+        Voting Classifier (LR, MLP)   & 0.9892 & 0.9867 & 0.9876 & 0.9867 \\
+        Stacking Classifier (LR, MLP) & 0.9892 & 0.9867 & 0.9876 & 0.9867 \\
+        Bagging Classifier (MLP)      & 0.9866 & 0.9860 & 0.9861 & 0.9860 \\
+        Logistic Regression           & 0.9865 & 0.9846 & 0.9853 & 0.9846 \\
+        Multi-Layer Perceptron        & 0.9839 & 0.9839 & 0.9838 & 0.9839 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[Five Best Classifiers Against Test Set]{TAB:FIVEBESTTEST}{The five best classifiers measures against the test set, showing their metrics sorted by the F1-Score, Recall, F2-Score, and Precision.}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Model} & \textbf{F1 Score} & \textbf{Recall} & \textbf{F2 Score} & \textbf{Balanced Accuracy} \\
+        \hline
+        Logistic Regression           & 0.9873 & 0.9841 & 0.9854 & 0.9841 \\
+        Bagging Classifier (MLP)      & 0.9810 & 0.9762 & 0.9780 & 0.9762 \\
+        Multi-Layer Perceptron        & 0.9810 & 0.9762 & 0.9780 & 0.9762 \\
+        Voting Classifier (LR, MLP)   & 0.9745 & 0.9683 & 0.9706 & 0.9683 \\
+        Stacking Classifier (LR, MLP) & 0.9745 & 0.9683 & 0.9706 & 0.9683 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Comparing the results obtained from the training set \ref{TAB:FIVEBESTTRAINING} and the test set \ref{TAB:FIVEBESTTEST} we saw that the only model that performed better in the test set than in the training set was \acl{lr}, the rest diminished their performance, but the most significant decrease was in the \acl{vc} and \acl{sc} models, which had a decrease of 0.0147 in the F1-Score, and went from being the best-performing models among these five to the worst-performing models. This decrease in performance shows that the \acl{vc} and \acl{sc} models were overfitting the training set while the \acl{lr} model was generalizing better. 
+
+Another interesting thing is to note that \ac{bc} and \ac{mlp} models had the same performance in the test set, which makes sense since \ac{bc} was using \ac{mlp} as the base classifier. And also, \ac{vc} and \ac{sc} had the same metrics again.
+
+To better understand the performance of the models, we can see the confusion matrix of all the models in Figure \ref{FIG:CONFUSIONMATRIX}. Note that there are only three confusion matrices since the \ac{vc} and \ac{sc}, and the \ac{bc} and \ac{mlp} models had the same metrics (and the same confusion matrix), so we only show one of them.
+
+\begin{figure}[Confusion Matrix]{FIG:CONFUSIONMATRIX}{Confusion matrices of the five best classifiers.}
+    \begin{adjustbox}{width=1\textwidth,height=\textheight,keepaspectratio}
+    \subfigure[]{Logistic Regression}{
+        \image{5cm}{}{lr_confusion_matrix.png}
+    }
+    \subfigure[]{Bagging Classifier (MLP) and Multi-Layer Perceptron}{
+        \image{5cm}{}{bc_confusion_matrix.png}
+    }
+    \subfigure[]{Voting Classifier (LR, MLP) and Stacking Classifier (LR, MLP)}{
+        \image{5cm}{}{vc_confusion_matrix.png}
+    }
+\end{adjustbox}
+\end{figure}
+
+From the confusion matrices we can see that the only changes reside in the number of samples that were malignant and got classified as benign, which is exactly what we want to avoid, so we can see that the \ac{lr} model is the best-performing model with only 2 samples that were malignant and were classified as benign, followed by the \ac{bc} and \ac{mlp} models with 3 samples, and finally the \ac{vc} and \ac{sc} models with 4 samples.
