@@ -20,7 +20,10 @@ Ensemble classifiers are a type of classifier that combines the predictions of m
 \ac{ab} is similar to \ac{gb} in the sense that it combines the predictions of multiple models but it does so by giving more weight to the misclassified data points in each iteration.
 
 \subsubsection{Random Forest}
-\ac{rf} is based on using \ac{dt} as base classifiers. It builds multiple \ac{dt} and combines their predictions, it is called random because it uses a random subset of the features to build the \ac{dt} \cite{breiman_random_2001}, this randomness is called bagging, so \acl{rf} is a bagging classifier that uses \ac{dt} as base classifiers \cite{biau_random_2016}, \cite{raschka_how_0000}. We can see a graphical representation of the \ac{rf} in the Figure \ref{FIG:RAND_FOREST}.
+\ac{rf} is based on using \ac{dt} as base classifiers. It builds multiple \ac{dt} and combines their predictions, it is called random because it uses a random subset of the features to build the \ac{dt} \cite{breiman_random_2001}, this randomness is called bagging, so \acl{rf} is a bagging classifier that uses \ac{dt} as base classifiers 
+% ten cuidado: la segunda referencia aparece como interrogación, deberías buscar las interrogaciones en el pdf y ver qué pasa con ellas
+\cite{biau_random_2016}, \cite{raschka_how_0000}. 
+We can see a graphical representation of the \ac{rf} in the Figure \ref{FIG:RAND_FOREST}.
 
 \begin{figure}[Random Forest]{FIG:RAND_FOREST}{Graphical representation of Random Forest \cite{hemashreekilari_understanding_2023-2}.}
     \image{13cm}{}{random_forest.png}
