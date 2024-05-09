@@ -54,6 +54,10 @@ L.~Breiman, ``Random {Forests},'' {\em Machine Learning}, vol.~45, pp.~5--32,
 G.~Biau and E.~Scornet, ``A random forest guided tour,'' {\em TEST}, vol.~25,
   pp.~197--227, June 2016.
 
+\bibitem{raschka_how_2024}
+S.~Raschka, ``How does the random forest model work? {How} is it different from
+  bagging and boosting in ensemble models?,'' 2024.
+
 \bibitem{hemashreekilari_understanding_2023-2}
 Hemashreekilari, ``Understanding {Random} {Forest},'' Aug. 2023.
 

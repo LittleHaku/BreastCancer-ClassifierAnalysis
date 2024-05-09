@@ -3,41 +3,40 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: tfg_ivan.aux
 The style file: ieeetr.bst
 Database file #1: bibliography.bib
-Warning--I didn't find a database entry for "raschka_how_0000"
 Warning--empty journal in wolpert_stacked_nodate
 Warning--empty year in wolpert_stacked_nodate
 Warning--empty journal in bergstra_random_nodate
 Warning--empty year in bergstra_random_nodate
-You've used 46 entries,
+You've used 47 entries,
             1876 wiz_defined-function locations,
-            712 strings with 11174 characters,
-and the built_in function-call counts, 10625 in all, are:
-= -- 1008
-> -- 463
+            716 strings with 11324 characters,
+and the built_in function-call counts, 10746 in all, are:
+= -- 1018
+> -- 467
 < -- 0
-+ -- 177
-- -- 131
-* -- 709
-:= -- 1483
-add.period$ -- 48
-call.type$ -- 46
-change.case$ -- 44
++ -- 179
+- -- 132
+* -- 713
+:= -- 1500
+add.period$ -- 49
+call.type$ -- 47
+change.case$ -- 45
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 507
-empty$ -- 1030
-format.name$ -- 131
-if$ -- 2593
+cite$ -- 51
+duplicate$ -- 511
+empty$ -- 1048
+format.name$ -- 132
+if$ -- 2624
 int.to.chr$ -- 0
-int.to.str$ -- 46
+int.to.str$ -- 47
 missing$ -- 29
-newline$ -- 152
-num.names$ -- 47
-pop$ -- 187
+newline$ -- 155
+num.names$ -- 48
+pop$ -- 194
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 455
+skip$ -- 459
 stack$ -- 0
 substring$ -- 520
 swap$ -- 215
@@ -46,7 +45,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 95
-width$ -- 48
-write$ -- 406
-(There were 5 warnings)
+while$ -- 96
+width$ -- 49
+write$ -- 413
+(There were 4 warnings)

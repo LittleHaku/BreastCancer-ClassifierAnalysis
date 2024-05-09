@@ -121,11 +121,11 @@ To see how different the distributions are, we plotted the radius in Figure \ref
 
 
 \begin{figure}[Class Distribution of the Radius]{FIG:ClassDistributionRadius}{Class distribution of the radius in the dataset, from left to right we have the mean, the error, and the worst.}
-    \image{10cm}{}{radius_distribution.png}
+    \image{14cm}{}{radius_distribution.png}
 \end{figure}
 
 \begin{figure}[Class Distribution of the Fractal Dimension]{FIG:ClassDistributionFractal}{Class distribution of the fractal dimension in the dataset, from left to right we have the mean, the error, and the worst.}
-    \image{10cm}{}{fractal_distribution.png}
+    \image{14cm}{}{fractal_distribution.png}
 \end{figure}
 
-Once we knew the data was distributed, we proceeded with the preprocessing. As it was explained in Section \ref{SEC:PREPROCESSING}, we scaled the data using the \textit{StandardScaler} from the \textit{Scikit-learn} library, and we also performed a \ac{pca} to reduce the dimensionality and collinearity of the data retaining 95\% of the variance, which resulted in 10 features made up from a linear combination of the original 30 features with 0 collinearity between any of them. Lastly, this process that we just mentioned was not done to all the training data, but rather implemented in a pipeline so that for each fold in the cross-validation the data is scaled and transformed using only the training data and not the validation one, to avoid data leakage as already discussed.
+Once we knew the data was distributed, we proceeded with the preprocessing. As it was explained in Section \ref{SEC:PREPROCESSING}, we scaled the data using the \textit{StandardScaler} from the \textit{Scikit-learn} library, and we also performed a \ac{pca} to reduce the dimensionality and collinearity of the data retaining 95\% of the variance, which resulted in 10 features made up from a linear combination of the original 30 features with 0 collinearity between any of them. Lastly, this process that we just mentioned was not done to all the training data, but rather implemented in a pipeline so that for each fold in the cross-validation the data is scaled and transformed using only the training data and not the validation one, to avoid data leakage.
