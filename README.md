@@ -1,10 +1,28 @@
 # BreastCancer-ClassifierAnalysis
-This Bachelor thesis presents a comparative analysis of base and ensemble classifiers for breast cancer detection. The classifiers are used to analyze the results from fine needle aspiration biopsies and classify the samples as benign or malignant. The use of Artificial Intelligence (AI) is crucial in this process. A specific type of AI, known as eXplainable AI (XAI), is employed to interpret the results.
+This repository contains the Jupyter Notebook and document for my Bachelor's Thesis, which presents a comparative analysis of base and ensemble classifiers for breast cancer detection. The classifiers analyze fine needle aspiration biopsy results to classify samples as benign or malignant, leveraging the power of Artificial Intelligence (AI) and eXplainable AI (XAI).
 
-The initial phase involves constructing and optimizing the classifier models. These classifiers will analyze the results from fine needle biopsy aspirations and classify the samples as benign or malignant. Following this, a performance comparison is conducted using metrics such as the F1 score and recall. The aim is to identify the best classifier based on these metrics.
+## Project Overview
 
-Once the best classifier model is found, we dive deeper into it to understand how it works. For this, we will use SHAP (SHapley Additive exPlanations), a method of XAI that allows us to see the importance of each feature and how they contribute to the final decision of the model. This will allow us to not only classify the samples but also to understand why the model has made that decision, which can be a step forward in understanding AI models for medical purposes.
+### Classifier Development and Optimization
 
-Lastly, to display all the results from the classifiers and the XAI analysis, a web application is developed. This application will contain the resulting metrics from the classifiers as well as examples of how each classifier made some of its decisions and which features were the most important.
+The initial phase involves constructing and optimizing various classifier models. These classifiers analyze biopsy results and classify samples as benign or malignant. The performance of each classifier is compared using metrics such as the F1 score and recall to identify the most effective model.
 
-[Breast Cancer Classification Web](https://breastcancerclassifiers.up.railway.app/) (if it doesn't load due to free hosting, the repo with the website is available [here](https://github.com/LittleHaku/breast-cancer-classification-web))
+### Explainable AI with SHAP
+
+Once the best classifier is identified, we use SHAP (SHapley Additive exPlanations) to interpret its decisions. SHAP allows us to understand the importance of each feature and how they contribute to the model's final decision. This insight is crucial for advancing the understanding and trust in AI models for medical applications.
+
+## Web Application for Results
+
+To display the results from the classifiers and the XAI analysis, a web application is developed. This application features:
+- **Project Slideshow:** An informative slideshow on the homepage that provides an overview of the project and its key findings.
+- **Classifier Comparison Tool:** An interactive feature that allows you to compare different classifiers side by side.
+- **Classifier Metrics:** A comprehensive comparison of the performance metrics for all the classifiers tested.
+- **Global Feature Analysis:** Insights from the XAI analysis, showcasing how different features influence the model's predictions.
+- **Prediction Examples:** Detailed examples of individual predictions, highlighting how each feature contributed to the final decision.
+
+You can explore the website here [Breast Cancer Classification Web](https://breastcancerclassifiers.up.railway.app/) (if it doesn't load due to free hosting, the repo with the website is available [here](https://github.com/LittleHaku/breast-cancer-classification-web))
+
+## Repository Content
+
+- **Jupyter Notebook**: this file `BreastCancer_Classifier_Comparison.ipynb` contains all the code used to train, optimize and evaluate the classifiers and then apply SHAP on all of them.
+- **Thesis Document**: found in `tfg_ivan.pdf`, it contains my Thesis. If you want to see how the LaTeX document is organized and compiled check the directory `latex_document` there is a `makefile` that I'm sure can be useful for many students which have problems compiling the document with the bibliography.
