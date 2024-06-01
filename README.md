@@ -25,4 +25,8 @@ You can explore the website here [Breast Cancer Classification Web](https://brea
 ## Repository Content
 
 - **Jupyter Notebook**: this file `BreastCancer_Classifier_Comparison.ipynb` contains all the code used to train, optimize and evaluate the classifiers and then apply SHAP on all of them.
-- **Thesis Document**: found in `tfg_ivan.pdf`, it contains my Thesis. If you want to see how the LaTeX document is organized and compiled check the directory `latex_document` there is a `makefile` that I'm sure can be useful for many students which have problems compiling the document with the bibliography.
+- **Thesis Document**: found in `tfg_ivan.pdf`, it contains my Thesis. If you want to see how the LaTeX document is organized and compiled check the directory `latex_document` there is a `makefile` that I'm sure can be useful for many students which have problems compiling the document with the bibliography to use it do:
+```bash
+make clean && make
+```
+
