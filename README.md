@@ -7,4 +7,4 @@ Once the best classifier model is found, we dive deeper into it to understand ho
 
 Lastly, to display all the results from the classifiers and the XAI analysis, a web application is developed. This application will contain the resulting metrics from the classifiers as well as examples of how each classifier made some of its decisions and which features were the most important.
 
-[Breast Cancer Classification Web](https://breast-cancer-classification-web.onrender.com/) (probably won't load due to free hosting, but the repo with the website is available [here](https://github.com/LittleHaku/breast-cancer-classification-web))
+[Breast Cancer Classification Web](https://breastcancerclassifiers.up.railway.app/) (if it doesn't load due to free hosting, the repo with the website is available [here](https://github.com/LittleHaku/breast-cancer-classification-web))
